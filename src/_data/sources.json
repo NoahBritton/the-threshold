@@ -240,19 +240,35 @@
     "verified": true
   },
   {
+    "id": "source-complex-kane-parsons-interview-2026-05-29",
+    "title": "Backrooms Director Kane Parsons Talks Developing YouTube Series Into Box Office Horror",
+    "publisher": "Complex",
+    "creator": "Khal",
+    "publishedDate": "2026-05-29",
+    "accessedDate": "2026-07-06",
+    "url": "https://www.complex.com/pop-culture/a/khal/kane-parsons-backrooms-a24-film-interview",
+    "archiveUrl": null,
+    "sourceType": "interview",
+    "sourceTier": "primary",
+    "format": "article",
+    "availability": "public",
+    "notes": "Direct interview in which Parsons identifies The Oldest View and People Still Live Here as the two other YouTube series he would discuss and says People Still Live Here has the stronger chance of carrying forward. Does not supply a schedule or confirm active production.",
+    "verified": true
+  },
+  {
     "id": "source-youtube-kane-pixels-channel-2026-07-05",
     "title": "Kane Pixels — official YouTube channel and playlists",
     "publisher": "YouTube",
     "creator": "Kane Parsons",
     "publishedDate": null,
-    "accessedDate": "2026-07-05",
+    "accessedDate": "2026-07-06",
     "url": "https://www.youtube.com/@kanepixels/videos",
     "archiveUrl": null,
     "sourceType": "official-channel",
     "sourceTier": "primary",
     "format": "video-index",
     "availability": "public",
-    "notes": "Primary index for uploads. Playlist presence is not used to infer whether a series is actively in production, paused, or cancelled.",
+    "notes": "Primary index for uploads and playlist surfaces. The final pre-publication pass showed People Still Live Here among the channel playlists and visible official uploads including Sunshine, People Still Live Here (2005) - DAY 2 GAMEPLAY, Graveyard, and People Still Live Here V8.3 (2005 Gameplay). Upload and playlist presence are not used to infer whether a series is actively in production, paused, or cancelled.",
     "verified": true
   },
   {
@@ -268,7 +284,7 @@
     "sourceTier": "primary",
     "format": "playlist",
     "availability": "public",
-    "notes": "Official playlist surface for People Still Live Here. On July 6, 2026 the accessible page exposed entries including SAYWELL, People Still Live Here V8.3 (2005 Gameplay), Graveyard, People Still Live Here (2005) - DAY 2 GAMEPLAY, and Sunshine. Playlist presence confirms grouping, not current production status.",
+    "notes": "Official playlist surface for People Still Live Here. On July 6, 2026 the accessible page exposed entries including Kane Parsons - People Still Live Here - Full Album (2022), SAYWELL, People Still Live Here V8.3 (2005 Gameplay), Graveyard, People Still Live Here (2005) - DAY 2 GAMEPLAY, Sunshine, and Shepherdbossfight.wav (real). Playlist presence confirms grouping, not current production status.",
     "verified": true
   }
 ]

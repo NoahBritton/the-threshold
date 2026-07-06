@@ -3,10 +3,10 @@
   "slug": "001",
   "title": "The Door Is Not Confirmation",
   "subtitle": "Portal signals, a record-breaking Backrooms run, and the boundary around what comes next.",
-  "publishedDate": null,
+  "publishedDate": "2026-07-06",
   "updatedDate": "2026-07-06",
   "dateline": "THE THRESHOLD // FIELD DISPATCH",
-  "status": "review",
+  "status": "published",
   "lead": {
     "title": "A signal is not an announcement",
     "summary": "Kane Parsons has publicly been linked to exploratory interest in Portal and later appeared at Valve headquarters. Those facts make the possibility worth tracking. They do not establish that Valve has commissioned, approved, financed, or even formally developed a film. Edition 001 begins with that distinction because the archive's purpose is to preserve the distance between evidence and echo."
@@ -67,6 +67,18 @@
       "sourceIds": [
         "source-deadline-backrooms-sequel-2026-06-01"
       ]
+    },
+    {
+      "title": "People Still Live Here becomes the stronger YouTube-side watch",
+      "date": "2026-05-29",
+      "classification": "Interview signal // no schedule",
+      "summary": "In a direct Complex interview, Parsons named The Oldest View and People Still Live Here as the two non-Backrooms series he would discuss when asked about developing his other YouTube work, and said People Still Live Here had the stronger chance of carrying forward.",
+      "analysis": "That is a meaningful creator-level signal, especially when paired with the official playlist and visible upload history. It still does not confirm active production, a next episode, a platform move, or a release window.",
+      "sourceIds": [
+        "source-complex-kane-parsons-interview-2026-05-29",
+        "source-youtube-people-still-live-here-playlist-2026-07-06",
+        "source-youtube-kane-pixels-channel-2026-07-05"
+      ]
     }
   ],
   "timelineHighlights": [
@@ -82,7 +94,7 @@
   "watchList": [
     {
       "title": "People Still Live Here",
-      "text": "The official Kane Pixels playlist confirms the series grouping and visible entries, but no reliable current production-status statement has been located."
+      "text": "A May 29 Complex interview makes People Still Live Here the clearest non-Backrooms YouTube-side item to track: Parsons described it as having stronger continuation potential than The Oldest View. The official playlist confirms the grouping and visible entries, but no release window or active-production statement has been located."
     },
     {
       "title": "Kane Pixels upload ledger",
@@ -107,7 +119,9 @@
     "source-kotaku-kane-ai-scope-2026-06-27",
     "source-deadline-backrooms-sequel-2026-06-01",
     "source-ap-backrooms-pvod-2026-07-03",
-    "source-youtube-people-still-live-here-playlist-2026-07-06"
+    "source-youtube-people-still-live-here-playlist-2026-07-06",
+    "source-youtube-kane-pixels-channel-2026-07-05",
+    "source-complex-kane-parsons-interview-2026-05-29"
   ],
-  "editorialNote": "Edition 001 is intentionally marked Review rather than Published. It is the first native structured dispatch and should be proofread in the generated layout before assigning a publication date."
+  "editorialNote": null
 }

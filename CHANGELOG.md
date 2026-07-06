@@ -8,6 +8,7 @@
 - Added AP's July 7 premium VOD report and tracked the unresolved question of whether Everything Must Go footage is included.
 - Reworked Edition 001's active watch file to emphasize official YouTube, series tracking, and U.S. digital-release relevance instead of the Portal mural lead.
 - Added the official People Still Live Here playlist as primary YouTube evidence while preserving uncertainty around current production status.
+- Published Edition 001 after a final targeted People Still Live Here pass, adding the Complex interview signal and exact visible official playlist entries.
 
 ## 0.2.0 — 2026-07-05
 

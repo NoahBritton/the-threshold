@@ -8,7 +8,7 @@ Key decisions:
 
 - The Japanese release moved from **reported** to **confirmed** after locating the official A24×Happinet Phantom Studios film page listing a September 4, 2026 release.
 - AP reported a July 7, 2026 premium VOD debut for Backrooms. This is U.S.-relevant, but the reviewed report does not establish whether Everything Must Go footage is included.
-- People Still Live Here remains an **open** status question. The official playlist confirms the series grouping and visible entries, but playlist presence is not treated as active-production evidence.
+- People Still Live Here remains an **open** status question, but the watch item was strengthened. A direct Complex interview gives it stronger continuation value than The Oldest View, and the official YouTube playlist/channel surfaces confirm the visible grouping and entries. Neither source establishes a current production schedule.
 - Edition 001's active watch file was refocused away from the Portal mural lead and toward official YouTube upload tracking plus the PVOD bonus-footage question.
 - No source reviewed during this pass confirmed a Portal production, the purpose of the Valve visit, or binding Backrooms exclusions from the A24/DeepMind partnership.
 

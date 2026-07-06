@@ -1,0 +1,54 @@
+---
+layout: layouts/base.njk
+title: Research Timeline
+permalink: timeline/index.html
+---
+<section class="page-header shell">
+  <p class="eyebrow">Dated evidence ledger</p>
+  <h1>Research timeline</h1>
+  <p>Events are classified independently from confidence. A high-confidence report is still not the same thing as a primary-source confirmation.</p>
+</section>
+<section class="section shell section--tight" data-filter-root>
+  <div class="filter-bar" aria-label="Timeline filters">
+    <label>Status
+      <select data-filter="status">
+        <option value="all">All statuses</option>
+        <option value="confirmed">Confirmed</option>
+        <option value="reported">Reported</option>
+        <option value="partially-confirmed">Partially confirmed</option>
+        <option value="inferred">Inferred</option>
+        <option value="rumor">Rumor</option>
+      </select>
+    </label>
+    <label>Topic
+      <select data-filter="topic">
+        <option value="all">All topics</option>
+        <option value="backrooms">Backrooms</option>
+        <option value="portal">Portal</option>
+        <option value="a24">A24</option>
+        <option value="ai">AI</option>
+      </select>
+    </label>
+    <p><span data-visible-count>{{ timeline.length }}</span> records visible</p>
+  </div>
+
+  <div class="timeline-ledger">
+    {% for item in timeline %}
+      <article class="timeline-entry" data-filter-item data-status="{{ item.status }}" data-topics="{{ item.topics | join(' ') }}">
+        <div class="timeline-entry__date">
+          <time datetime="{{ item.eventDate }}">{{ item.eventDate | formatDate({ short: true }) }}</time>
+          <span>{{ item.datePrecision }}</span>
+        </div>
+        <div class="timeline-entry__body">
+          {% include "components/confidence-badge.njk" %}
+          <h2>{{ item.title }}</h2>
+          <p>{{ item.summary }}</p>
+          {% if item.interpretation %}<div class="analysis-note"><strong>Interpretation</strong><p>{{ item.interpretation }}</p></div>{% endif %}
+          {% if item.notes %}<p class="record-note">Review note: {{ item.notes }}</p>{% endif %}
+          {% set sourceIds = item.sourceIds %}
+          {% include "components/source-list.njk" %}
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+</section>

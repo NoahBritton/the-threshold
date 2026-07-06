@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://the-threshold.local/schemas/source.schema.json",
+  "title": "Threshold source",
+  "type": "object",
+  "required": ["id", "title", "publisher", "accessedDate", "url", "sourceType", "sourceTier", "format", "availability", "verified"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^source-[a-z0-9-]+$" },
+    "title": { "type": "string", "minLength": 1 },
+    "publisher": { "type": "string", "minLength": 1 },
+    "creator": { "type": ["string", "null"] },
+    "publishedDate": { "type": ["string", "null"], "format": "date" },
+    "accessedDate": { "type": "string", "format": "date" },
+    "url": { "type": "string", "format": "uri" },
+    "archiveUrl": { "type": ["string", "null"], "format": "uri" },
+    "sourceType": { "type": "string", "minLength": 1 },
+    "sourceTier": { "enum": ["primary", "authoritative-secondary", "secondary", "community", "unverified"] },
+    "format": { "type": "string", "minLength": 1 },
+    "availability": { "type": "string", "minLength": 1 },
+    "notes": { "type": ["string", "null"] },
+    "verified": { "type": "boolean" }
+  },
+  "additionalProperties": false
+}

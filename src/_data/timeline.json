@@ -1,0 +1,284 @@
+[
+  {
+    "id": "event-2026-07-03-everything-must-go-release",
+    "eventDate": "2026-07-03",
+    "datePrecision": "day",
+    "publishedDate": null,
+    "title": "Everything Must Go Edition opens in theaters",
+    "summary": "SIFF Cinema listed Backrooms: Everything Must Go Edition opening July 3 with a 126-minute runtime and 15 minutes of new theatrically exclusive post-credit footage.",
+    "topics": [
+      "backrooms",
+      "extended-cut",
+      "release"
+    ],
+    "people": [
+      "kane-parsons"
+    ],
+    "organizations": [
+      "a24",
+      "siff"
+    ],
+    "sourceIds": [
+      "source-siff-everything-must-go-2026-07-03"
+    ],
+    "status": "confirmed",
+    "confidence": "high",
+    "primarySourceAvailable": false,
+    "interpretation": null,
+    "editionRefs": [
+      "001"
+    ],
+    "lastReviewed": "2026-07-05",
+    "notes": "Other listings and reports vary between 15 and 16 minutes and between 2h6m and 2h7m. The discrepancy remains visible in the research queue."
+  },
+  {
+    "id": "event-2026-06-28-japan-release-announcement",
+    "eventDate": "2026-06-28",
+    "datePrecision": "day",
+    "publishedDate": "2026-06-28",
+    "title": "September 4 Japanese release reported",
+    "summary": "A community report says A24 Japan and Happinet Phantom Studios announced a September 4 Japanese release with a trailer and posters.",
+    "topics": [
+      "backrooms",
+      "international-release",
+      "japan"
+    ],
+    "people": [
+      "kane-parsons"
+    ],
+    "organizations": [
+      "a24-japan",
+      "happinet-phantom-studios"
+    ],
+    "sourceIds": [
+      "source-backroomsmovie-japan-2026-06-28"
+    ],
+    "status": "reported",
+    "confidence": "medium",
+    "primarySourceAvailable": false,
+    "interpretation": null,
+    "editionRefs": [],
+    "lastReviewed": "2026-07-05",
+    "notes": "Promote to confirmed only after preserving the official distributor announcement."
+  },
+  {
+    "id": "event-2026-06-27-parsons-rejects-ai-use-on-backrooms",
+    "eventDate": "2026-06-27",
+    "datePrecision": "day",
+    "publishedDate": "2026-06-27",
+    "title": "Parsons reportedly rejects using partnership resources on Backrooms",
+    "summary": "Kotaku reported a Discord statement in which Parsons said he was making clear that the A24/DeepMind resources were not to be spent on Backrooms.",
+    "topics": [
+      "backrooms",
+      "ai",
+      "a24"
+    ],
+    "people": [
+      "kane-parsons"
+    ],
+    "organizations": [
+      "a24",
+      "google-deepmind"
+    ],
+    "sourceIds": [
+      "source-kotaku-kane-ai-scope-2026-06-27"
+    ],
+    "status": "reported",
+    "confidence": "medium",
+    "primarySourceAvailable": false,
+    "interpretation": "The statement concerns Parsons' intent and boundaries. It is not evidence that he controls the partnership or every future production decision.",
+    "editionRefs": [
+      "001"
+    ],
+    "lastReviewed": "2026-07-05",
+    "notes": "Archive the original Discord message and surrounding conversation before treating it as primary evidence."
+  },
+  {
+    "id": "event-2026-06-26-valve-hq-visit",
+    "eventDate": "2026-06-26",
+    "datePrecision": "day",
+    "publishedDate": "2026-06-26",
+    "title": "Valve headquarters visit becomes public",
+    "summary": "GamesRadar reported that Parsons posted Instagram Story images from Valve headquarters. The visit is reportable; its purpose and any connection to a Portal adaptation remain unconfirmed.",
+    "topics": [
+      "portal",
+      "valve",
+      "signal"
+    ],
+    "people": [
+      "kane-parsons"
+    ],
+    "organizations": [
+      "valve"
+    ],
+    "sourceIds": [
+      "source-gamesradar-valve-visit-2026-06-26"
+    ],
+    "status": "reported",
+    "confidence": "medium",
+    "primarySourceAvailable": false,
+    "interpretation": "The visit is a meaningful signal because Parsons had already expressed exploratory interest in Portal. It is not evidence of a pitch, rights agreement, or approved film.",
+    "editionRefs": [
+      "001"
+    ],
+    "lastReviewed": "2026-07-05",
+    "notes": "Accessible reporting does not establish repeated visits over a week."
+  },
+  {
+    "id": "event-2026-06-22-a24-deepmind-partnership",
+    "eventDate": "2026-06-22",
+    "datePrecision": "day",
+    "publishedDate": "2026-06-22",
+    "title": "A24 and Google DeepMind announce research partnership",
+    "summary": "Google DeepMind and A24 announced a research partnership focused on new workflows and techniques for filmmakers. No specific film was named. The approximately $75 million investment figure remains attributed reporting rather than a confirmed amount in the primary announcement.",
+    "topics": [
+      "a24",
+      "ai",
+      "industry"
+    ],
+    "people": [],
+    "organizations": [
+      "a24",
+      "google-deepmind",
+      "google"
+    ],
+    "sourceIds": [
+      "source-deepmind-a24-partnership-2026-06-22",
+      "source-reuters-a24-deepmind-2026-06-22",
+      "source-wsj-a24-google-investment-2026-06-22"
+    ],
+    "status": "confirmed",
+    "confidence": "high",
+    "primarySourceAvailable": true,
+    "interpretation": null,
+    "editionRefs": [
+      "001"
+    ],
+    "lastReviewed": "2026-07-05",
+    "notes": "The partnership is confirmed. The investment amount is reported. No source reviewed establishes use on Backrooms."
+  },
+  {
+    "id": "event-2026-06-21-backrooms-crosses-300m",
+    "eventDate": "2026-06-21",
+    "datePrecision": "day",
+    "publishedDate": "2026-06-21",
+    "title": "Backrooms passes $300 million worldwide",
+    "summary": "Variety reported approximately $301 million worldwide on June 21, making Backrooms the first A24 release to exceed $300 million globally.",
+    "topics": [
+      "backrooms",
+      "box-office",
+      "a24"
+    ],
+    "people": [
+      "kane-parsons"
+    ],
+    "organizations": [
+      "a24"
+    ],
+    "sourceIds": [
+      "source-variety-backrooms-300m-2026-06-21",
+      "source-box-office-mojo-backrooms-2026"
+    ],
+    "status": "confirmed",
+    "confidence": "high",
+    "primarySourceAvailable": false,
+    "interpretation": null,
+    "editionRefs": [
+      "001"
+    ],
+    "lastReviewed": "2026-07-05",
+    "notes": "Cumulative box-office totals are dynamic; quote them with a source date."
+  },
+  {
+    "id": "event-2026-06-05-portal-interest-reported",
+    "eventDate": "2026-06-05",
+    "datePrecision": "day",
+    "publishedDate": "2026-06-05",
+    "title": "Exploratory interest in a Portal film is publicly attributed to Parsons",
+    "summary": "New York Times reporter Kyle Buchanan said he had asked Parsons in early May about directing Portal and that Parsons was already looking into it with caution and curiosity.",
+    "topics": [
+      "portal",
+      "adaptation",
+      "interview"
+    ],
+    "people": [
+      "kane-parsons",
+      "kyle-buchanan"
+    ],
+    "organizations": [
+      "valve"
+    ],
+    "sourceIds": [
+      "source-kyle-buchanan-portal-post-2026-06-05"
+    ],
+    "status": "reported",
+    "confidence": "medium",
+    "primarySourceAvailable": true,
+    "interpretation": null,
+    "editionRefs": [
+      "001"
+    ],
+    "lastReviewed": "2026-07-05",
+    "notes": "The post is primary evidence of Buchanan's account, but not a transcript of the complete exchange with Parsons."
+  },
+  {
+    "id": "event-2026-06-03-parsons-criticizes-generative-ai",
+    "eventDate": "2026-06-03",
+    "datePrecision": "day",
+    "publishedDate": "2026-06-03",
+    "title": "Parsons' opposition to generative AI in creative work is reported",
+    "summary": "Deadline reported comments from Parsons describing generative AI as harmful to creativity and saying he gets no creative enjoyment from using such tools.",
+    "topics": [
+      "ai",
+      "creative-process",
+      "interview"
+    ],
+    "people": [
+      "kane-parsons"
+    ],
+    "organizations": [],
+    "sourceIds": [
+      "source-deadline-kane-ai-2026-06-03"
+    ],
+    "status": "reported",
+    "confidence": "high",
+    "primarySourceAvailable": false,
+    "interpretation": null,
+    "editionRefs": [
+      "001"
+    ],
+    "lastReviewed": "2026-07-05",
+    "notes": "The original interview was published by The Australian; Deadline is used here as the accessible report."
+  },
+  {
+    "id": "event-2026-06-01-backrooms-sequel-early-development",
+    "eventDate": "2026-06-01",
+    "datePrecision": "day",
+    "publishedDate": "2026-06-01",
+    "title": "Backrooms sequel reported in early development",
+    "summary": "Deadline reported a sequel in early development, with Parsons expected to return and seeking a screenwriting collaborator. No release date or production start was established.",
+    "topics": [
+      "backrooms",
+      "sequel",
+      "development"
+    ],
+    "people": [
+      "kane-parsons"
+    ],
+    "organizations": [
+      "a24"
+    ],
+    "sourceIds": [
+      "source-deadline-backrooms-sequel-2026-06-01"
+    ],
+    "status": "reported",
+    "confidence": "high",
+    "primarySourceAvailable": false,
+    "interpretation": null,
+    "editionRefs": [
+      "001"
+    ],
+    "lastReviewed": "2026-07-05",
+    "notes": "Early development can change or stall. Do not describe the sequel as shooting, dated, or formally greenlit without later evidence."
+  }
+]

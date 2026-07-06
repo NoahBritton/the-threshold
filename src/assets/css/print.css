@@ -1,0 +1,10 @@
+@page { size: Letter; margin: .45in; }
+body, .dispatch-field { background: white !important; color: black !important; }
+body::before, .site-header, .site-footer, .skip-link, .registration-marks { display: none !important; }
+.dispatch-wrap { width: 100%; padding: 0; }
+.dispatch-document { box-shadow: none; border: 0; width: 100%; min-height: 0; background: white; color: black; }
+.dispatch-document::before { display: none; }
+.dispatch-masthead { padding-top: 0; }
+a { color: black; text-decoration: none; }
+.source-list a::after { content: " (" attr(href) ")"; font-size: 8pt; overflow-wrap: anywhere; }
+.timeline-entry, .research-item, .archive-entry, .story-card { break-inside: avoid; }

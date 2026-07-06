@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://the-threshold.local/schemas/timeline-event.schema.json",
+  "title": "Threshold timeline event",
+  "type": "object",
+  "required": ["id", "eventDate", "datePrecision", "title", "summary", "topics", "people", "organizations", "sourceIds", "status", "confidence", "primarySourceAvailable", "editionRefs", "lastReviewed"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^event-[a-z0-9-]+$" },
+    "eventDate": { "type": "string", "format": "date" },
+    "datePrecision": { "enum": ["day", "month", "year", "approximate"] },
+    "publishedDate": { "type": ["string", "null"], "format": "date" },
+    "title": { "type": "string", "minLength": 1 },
+    "summary": { "type": "string", "minLength": 1 },
+    "topics": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "people": { "type": "array", "items": { "type": "string" } },
+    "organizations": { "type": "array", "items": { "type": "string" } },
+    "sourceIds": { "type": "array", "items": { "type": "string" } },
+    "status": { "enum": ["confirmed", "reported", "partially-confirmed", "inferred", "rumor", "disputed", "unsupported", "false", "retracted", "unknown"] },
+    "confidence": { "enum": ["high", "medium", "low"] },
+    "primarySourceAvailable": { "type": "boolean" },
+    "interpretation": { "type": ["string", "null"] },
+    "editionRefs": { "type": "array", "items": { "type": "string", "pattern": "^[0-9]{3}$" } },
+    "lastReviewed": { "type": "string", "format": "date" },
+    "notes": { "type": ["string", "null"] }
+  },
+  "additionalProperties": false
+}

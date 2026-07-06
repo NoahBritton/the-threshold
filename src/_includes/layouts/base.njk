@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="{{ site.language }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#15191e">
+    <meta name="description" content="{{ description or site.description }}">
+    <title>{% if title %}{{ title }} // {% endif %}{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/tokens.css' | url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/base.css' | url }}">
+    {% if dispatchPage %}<link rel="stylesheet" href="{{ '/assets/css/dispatch.css' | url }}">{% endif %}
+    <link rel="stylesheet" href="{{ '/assets/css/print.css' | url }}" media="print">
+    <script src="{{ '/assets/js/site.js' | url }}" defer></script>
+  </head>
+  <body class="{% if dispatchPage %}dispatch-field{% endif %}">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="site-header__inner shell">
+        <a class="wordmark" href="{{ '/' | url }}" aria-label="The Threshold home">
+          <span class="wordmark__mark" aria-hidden="true">T/</span>
+          <span>{{ site.shortTitle }}</span>
+        </a>
+        <nav aria-label="Primary navigation">
+          <a href="{{ '/archive/' | url }}">Dispatches</a>
+          <a href="{{ '/timeline/' | url }}">Timeline</a>
+          <a href="{{ '/research-status/' | url }}">Research</a>
+          <a href="{{ '/methodology/' | url }}">Method</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      {{ content | safe }}
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell site-footer__grid">
+        <p>{{ site.disclaimer }}</p>
+        <p>Reviewed through <time datetime="{{ site.reviewedThrough }}">{{ site.reviewedThrough | formatDate }}</time> · Build {{ site.buildVersion }}</p>
+      </div>
+    </footer>
+  </body>
+</html>

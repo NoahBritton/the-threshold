@@ -1,0 +1,19 @@
+<header class="dispatch-masthead">
+  <div class="dispatch-masthead__meta">
+    <span>{{ edition.dateline or "THE THRESHOLD // FIELD DISPATCH" }}</span>
+    <span>FILE №{{ edition.number }}</span>
+  </div>
+  <div class="tracking-strip" aria-hidden="true"></div>
+  <p class="eyebrow">Independent observation record</p>
+  <h1 id="dispatch-title">{{ edition.title }}</h1>
+  {% if edition.subtitle %}<p class="dispatch-subtitle">{{ edition.subtitle }}</p>{% endif %}
+  <div class="dispatch-masthead__status">
+    <span class="stamp stamp--{{ edition.status }}">{{ edition.status | statusLabel }}</span>
+    {% if edition.publishedDate %}
+      <span>Issued {{ edition.publishedDate | formatDate }}</span>
+    {% else %}
+      <span>Publication date not assigned</span>
+    {% endif %}
+    {% if edition.updatedDate %}<span>Updated {{ edition.updatedDate | formatDate }}</span>{% endif %}
+  </div>
+</header>

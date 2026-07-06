@@ -1,0 +1,25 @@
+---
+layout: layouts/base.njk
+title: Dispatch Archive
+permalink: archive/index.html
+---
+<section class="page-header shell">
+  <p class="eyebrow">Permanent file index</p>
+  <h1>Dispatch archive</h1>
+  <p>The archive begins with Edition 001. Draft and review files remain visibly labeled until publication; published editions are corrected with dated notices rather than silently rewritten.</p>
+</section>
+<section class="section shell section--tight">
+  <div class="archive-list">
+    {% for edition in editionList %}
+      <a class="archive-entry" href="{{ ('/dispatch/' + edition.slug + '/') | url }}">
+        <span class="archive-entry__number">№{{ edition.number }}</span>
+        <div>
+          <div class="archive-entry__meta"><span class="stamp stamp--{{ edition.status }}">{{ edition.status | statusLabel }}</span>{% if edition.publishedDate %}<time>{{ edition.publishedDate | formatDate }}</time>{% else %}<time>Updated {{ edition.updatedDate | formatDate }}</time>{% endif %}</div>
+          <h2>{{ edition.title }}</h2>
+          <p>{{ edition.subtitle or edition.editorialNote }}</p>
+        </div>
+        <span aria-hidden="true">↗</span>
+      </a>
+    {% endfor %}
+  </div>
+</section>

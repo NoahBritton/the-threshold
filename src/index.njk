@@ -1,0 +1,92 @@
+---
+layout: layouts/base.njk
+title: Field Index
+description: The Threshold home — latest dispatch, verified developments, and open research questions.
+permalink: index.html
+---
+{% set published = editionList | publishedEditions %}
+{% set latest = editionList[0] %}
+<section class="hero shell">
+  <div class="hero__copy">
+    <p class="eyebrow">Unofficial field archive // Kane Parsons</p>
+    <h1>Evidence before echo.</h1>
+    <p class="hero__lede">A source-driven timeline and dispatch archive separating confirmed developments, reported information, interpretation, signals, and rumor.</p>
+    <div class="hero__actions">
+      <a class="button button--primary" href="{{ '/timeline/' | url }}">Open timeline</a>
+      <a class="button" href="{{ '/methodology/' | url }}">Read methodology</a>
+    </div>
+  </div>
+  <aside class="status-panel" aria-label="Archive status">
+    <span class="status-panel__label">Archive state</span>
+    <strong>{% if published.length %}{{ published.length }} published dispatch{% if published.length != 1 %}es{% endif %}{% elif latest %}Dispatch {{ latest.number }} in {{ latest.status }}{% else %}Research system online{% endif %}</strong>
+    <dl>
+      <div><dt>Reviewed through</dt><dd>{{ site.reviewedThrough }}</dd></div>
+      <div><dt>Sources logged</dt><dd>{{ sources.length }}</dd></div>
+      <div><dt>Timeline events</dt><dd>{{ timeline.length }}</dd></div>
+      <div><dt>Open questions</dt><dd>{{ researchQueue.length }}</dd></div>
+    </dl>
+  </aside>
+</section>
+
+<section class="section shell">
+  <div class="section-heading">
+    <div><p class="eyebrow">Latest dispatch</p><h2>{% if latest %}Edition {{ latest.number }}{% else %}No file issued{% endif %}</h2></div>
+    <a href="{{ '/archive/' | url }}">View all files →</a>
+  </div>
+  {% if latest %}
+    <a class="feature-card" href="{{ ('/dispatch/' + latest.slug + '/') | url }}">
+      <span class="feature-card__number">№{{ latest.number }}</span>
+      <div>
+        <span class="stamp stamp--{{ latest.status }}">{{ latest.status | statusLabel }}</span>
+        <h3>{{ latest.title }}</h3>
+        <p>{{ latest.subtitle }}</p>
+      </div>
+      <span>{% if latest.publishedDate %}{{ latest.publishedDate | formatDate }}{% else %}Updated {{ latest.updatedDate | formatDate }}{% endif %}</span>
+    </a>
+  {% else %}
+    <div class="notice-grid">
+      <div class="notice-card notice-card--alert">
+        <span class="stamp">No dispatch</span>
+        <h3>The research archive is ready for its first edition.</h3>
+        <p>Add a structured edition file, validate the project, and review the generated dispatch before publication.</p>
+      </div>
+    </div>
+  {% endif %}
+</section>
+
+<section class="section section--paper">
+  <div class="shell">
+    <div class="section-heading">
+      <div><p class="eyebrow">Recent record</p><h2>Verified and reported developments</h2></div>
+      <a href="{{ '/timeline/' | url }}">Full chronology →</a>
+    </div>
+    <div class="timeline-preview">
+      {% for item in timeline | take(4) %}
+        <article>
+          <time datetime="{{ item.eventDate }}">{{ item.eventDate | formatDate({ short: true }) }}</time>
+          <div>
+            {% include "components/confidence-badge.njk" %}
+            <h3>{{ item.title }}</h3>
+            <p>{{ item.summary }}</p>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section shell">
+  <div class="section-heading">
+    <div><p class="eyebrow">Research queue</p><h2>Questions still open</h2></div>
+    <a href="{{ '/research-status/' | url }}">Open queue →</a>
+  </div>
+  <div class="card-grid">
+    {% for item in researchQueue | take(3) %}
+      <article class="queue-card">
+        <div><span class="priority priority--{{ item.priority }}">{{ item.priority }}</span><span>{{ item.topic }}</span></div>
+        <h3>{{ item.question }}</h3>
+        <p>{{ item.notes }}</p>
+      </article>
+    {% endfor %}
+  </div>
+</section>

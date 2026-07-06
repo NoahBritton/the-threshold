@@ -1,0 +1,18 @@
+---
+layout: layouts/base.njk
+dispatchPage: true
+---
+<div class="dispatch-wrap shell">
+  <article class="dispatch-document" aria-labelledby="dispatch-title">
+    <div class="registration-marks" aria-hidden="true"><span>+</span><span>+</span><span>+</span><span>+</span></div>
+    {% include "components/masthead.njk" %}
+    <div class="dispatch-content">
+      {{ content | safe }}
+    </div>
+    <footer class="dispatch-document__footer">
+      <span>FILE // {{ edition.number }}</span>
+      <span>END OF TRANSMISSION</span>
+      <span>{{ edition.updatedDate or site.reviewedThrough }}</span>
+    </footer>
+  </article>
+</div>

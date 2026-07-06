@@ -1,0 +1,65 @@
+---
+pagination:
+  data: editionList
+  size: 1
+  alias: edition
+permalink: "dispatch/{{ edition.slug }}/index.html"
+layout: layouts/dispatch.njk
+eleventyComputed:
+  title: "Dispatch {{ edition.number }} — {{ edition.title }}"
+---
+{% for correction in edition.corrections %}
+  {% include "components/correction-notice.njk" %}
+{% endfor %}
+
+{% if edition.lead %}
+  <section class="dispatch-block dispatch-lead">
+    <p class="section-code">LEAD BRIEF</p>
+    <h2>{{ edition.lead.title }}</h2>
+    <p>{{ edition.lead.summary }}</p>
+  </section>
+{% endif %}
+
+{% for story in edition.briefings %}
+  {% include "components/story-card.njk" %}
+{% endfor %}
+
+{% if edition.timelineHighlights.length %}
+  <section class="dispatch-block">
+    <p class="section-code">TIMELINE EXTRACT</p>
+    {% set selectedEvents = edition.timelineHighlights | resolveEvents(timeline) %}
+    {% for item in selectedEvents %}
+      <article class="dispatch-timeline-item">
+        <time>{{ item.eventDate | formatDate }}</time>
+        <div>{% include "components/confidence-badge.njk" %}<h3>{{ item.title }}</h3><p>{{ item.summary }}</p></div>
+      </article>
+    {% endfor %}
+  </section>
+{% endif %}
+
+{% if edition.watchList.length %}
+  <section class="dispatch-block">
+    <p class="section-code">ACTIVE WATCH FILE</p>
+    <div class="dispatch-watch-grid">
+      {% for watch in edition.watchList %}
+        <article>
+          <span>{{ loop.index }}</span>
+          <h3>{{ watch.title }}</h3>
+          <p>{{ watch.text }}</p>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+{% endif %}
+
+{% if edition.sourceIds.length %}
+  <section class="dispatch-block">
+    <p class="section-code">EDITION SOURCE LEDGER</p>
+    {% set sourceIds = edition.sourceIds %}
+    {% include "components/source-list.njk" %}
+  </section>
+{% endif %}
+
+{% if edition.editorialNote %}
+  <aside class="editorial-note"><strong>Editorial note</strong><p>{{ edition.editorialNote }}</p></aside>
+{% endif %}

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "queue-portal-full-exchange",
+    "question": "Locate or obtain the complete early-May exchange behind Kyle Buchanan's Portal account.",
+    "topic": "portal",
+    "priority": "high",
+    "status": "open",
+    "openedDate": "2026-07-05",
+    "lastChecked": "2026-07-05",
+    "sourceIds": [
+      "source-kyle-buchanan-portal-post-2026-06-05"
+    ],
+    "notes": "The public post establishes Buchanan's account but not the full context of Parsons' answer."
+  },
+  {
+    "id": "queue-portal-valve-visit-purpose",
+    "question": "Determine whether any public source establishes why Parsons visited Valve or how many visits occurred.",
+    "topic": "portal",
+    "priority": "high",
+    "status": "open",
+    "openedDate": "2026-07-05",
+    "lastChecked": "2026-07-05",
+    "sourceIds": [
+      "source-gamesradar-valve-visit-2026-06-26"
+    ],
+    "notes": "Do not infer a pitch, rights discussion, production approval, or week-long sequence from location imagery."
+  },
+  {
+    "id": "queue-portal-mural-primary",
+    "question": "Locate the original teal/orange technical-drawing or door-mural post and document its date, creator, caption, and context.",
+    "topic": "portal",
+    "priority": "high",
+    "status": "open",
+    "openedDate": "2026-07-05",
+    "lastChecked": "2026-07-05",
+    "sourceIds": [],
+    "notes": "Color resemblance may be described as a signal or source of speculation, never confirmation."
+  },
+  {
+    "id": "queue-japan-release-primary",
+    "question": "Capture the canonical A24 Japan or Happinet Phantom Studios announcement for the September 4 release.",
+    "topic": "backrooms-release",
+    "priority": "medium",
+    "status": "open",
+    "openedDate": "2026-07-05",
+    "lastChecked": "2026-07-05",
+    "sourceIds": [
+      "source-backroomsmovie-japan-2026-06-28"
+    ],
+    "notes": "The date is currently supported by a community report naming the official announcers."
+  },
+  {
+    "id": "queue-extended-cut-runtime-discrepancy",
+    "question": "Resolve the 2h6m versus 2h7m and 15-versus-16-minute discrepancies for Everything Must Go Edition.",
+    "topic": "backrooms-release",
+    "priority": "medium",
+    "status": "open",
+    "openedDate": "2026-07-05",
+    "lastChecked": "2026-07-05",
+    "sourceIds": [
+      "source-siff-everything-must-go-2026-07-03"
+    ],
+    "notes": "SIFF lists 126 minutes and 15 minutes of new footage; other exhibitor and press listings differ slightly."
+  },
+  {
+    "id": "queue-a24-ai-backrooms-primary",
+    "question": "Archive the original Discord statement and determine whether any binding production decision excludes DeepMind tools from Backrooms projects.",
+    "topic": "a24-ai",
+    "priority": "high",
+    "status": "open",
+    "openedDate": "2026-07-05",
+    "lastChecked": "2026-07-05",
+    "sourceIds": [
+      "source-kotaku-kane-ai-scope-2026-06-27",
+      "source-deepmind-a24-partnership-2026-06-22"
+    ],
+    "notes": "Parsons' reported position is clear, but the project-level scope and authority behind it are not fully documented."
+  },
+  {
+    "id": "queue-people-still-live-here-status",
+    "question": "Establish the current production status and most recent canonical update for People Still Live Here.",
+    "topic": "people-still-live-here",
+    "priority": "medium",
+    "status": "open",
+    "openedDate": "2026-07-05",
+    "lastChecked": "2026-07-05",
+    "sourceIds": [
+      "source-youtube-kane-pixels-channel-2026-07-05"
+    ],
+    "notes": "An official playlist exists, but playlist presence alone does not establish active production, hiatus, or cancellation."
+  }
+]

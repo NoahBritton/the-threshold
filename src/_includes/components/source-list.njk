@@ -1,0 +1,14 @@
+{% set resolvedSources = sourceIds | resolveSources(sources) %}
+{% if resolvedSources.length %}
+  <ol class="source-list">
+    {% for source in resolvedSources %}
+      <li>
+        <a href="{{ source.url }}" rel="external noreferrer">{{ source.title }}</a>
+        <span>{{ source.publisher }}{% if source.publishedDate %} · {{ source.publishedDate | formatDate }}{% endif %}</span>
+        {% if source.notes %}<p>{{ source.notes }}</p>{% endif %}
+      </li>
+    {% endfor %}
+  </ol>
+{% else %}
+  <p class="empty-state">No source references are attached to this block.</p>
+{% endif %}

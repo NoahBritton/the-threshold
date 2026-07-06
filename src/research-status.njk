@@ -1,0 +1,31 @@
+---
+layout: layouts/base.njk
+title: Research Status
+permalink: research-status/index.html
+---
+<section class="page-header shell">
+  <p class="eyebrow">Open questions and blocked evidence</p>
+  <h1>Research status</h1>
+  <p>This page exposes what the archive does not yet know, what is only secondarily reported, and what cannot be completed without source material.</p>
+</section>
+<section class="section shell section--tight">
+  <div class="research-board">
+    {% for item in researchQueue %}
+      <article class="research-item research-item--{{ item.status }}">
+        <div class="research-item__meta">
+          <span class="priority priority--{{ item.priority }}">{{ item.priority }}</span>
+          <span>{{ item.status }}</span>
+          <span>{{ item.topic }}</span>
+        </div>
+        <h2>{{ item.question }}</h2>
+        <p>{{ item.notes }}</p>
+        <dl>
+          <div><dt>Opened</dt><dd>{{ item.openedDate }}</dd></div>
+          <div><dt>Last checked</dt><dd>{{ item.lastChecked }}</dd></div>
+        </dl>
+        {% set sourceIds = item.sourceIds %}
+        {% if sourceIds.length %}{% include "components/source-list.njk" %}{% endif %}
+      </article>
+    {% endfor %}
+  </div>
+</section>

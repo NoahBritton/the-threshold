@@ -1,0 +1,11 @@
+<article class="story-card">
+  <div class="story-card__meta">
+    <span>{{ story.classification or "Unclassified draft" }}</span>
+    {% if story.date %}<time datetime="{{ story.date }}">{{ story.date | formatDate }}</time>{% endif %}
+  </div>
+  <h2>{{ story.title }}</h2>
+  {% if story.summary %}<p>{{ story.summary }}</p>{% endif %}
+  {% if story.analysis %}<div class="analysis-note"><strong>Analysis</strong><p>{{ story.analysis }}</p></div>{% endif %}
+  {% set sourceIds = story.sourceIds or [] %}
+  {% include "components/source-list.njk" %}
+</article>

@@ -1,0 +1,110 @@
+{
+  "number": "001",
+  "slug": "001",
+  "title": "The Door Is Not Confirmation",
+  "subtitle": "Portal signals, a record-breaking Backrooms run, and the boundary around what comes next.",
+  "publishedDate": null,
+  "updatedDate": "2026-07-05",
+  "dateline": "THE THRESHOLD // FIELD DISPATCH",
+  "status": "review",
+  "lead": {
+    "title": "A signal is not an announcement",
+    "summary": "Kane Parsons has publicly been linked to exploratory interest in Portal and later appeared at Valve headquarters. Those facts make the possibility worth tracking. They do not establish that Valve has commissioned, approved, financed, or even formally developed a film. Edition 001 begins with that distinction because the archive's purpose is to preserve the distance between evidence and echo."
+  },
+  "briefings": [
+    {
+      "title": "Portal enters the watch file",
+      "date": "2026-06-26",
+      "classification": "Signal // reported",
+      "summary": "Kyle Buchanan publicly said Parsons had already been looking into a Portal film with caution and curiosity when asked in early May. Later reporting documented Instagram Story images from Valve headquarters. Neither source supplies a production announcement, meeting purpose, rights agreement, or confirmation from Valve.",
+      "analysis": "The combination is stronger than ordinary fan casting because there is attributed interest and a real Valve visit. It still belongs in the signal category. The responsible headline is that the possibility has become trackable—not that a Portal movie is happening.",
+      "sourceIds": [
+        "source-kyle-buchanan-portal-post-2026-06-05",
+        "source-gamesradar-valve-visit-2026-06-26"
+      ]
+    },
+    {
+      "title": "Backrooms moves beyond the $300 million threshold",
+      "date": "2026-06-21",
+      "classification": "Confirmed",
+      "summary": "Variety reported that Backrooms reached roughly $301 million worldwide on June 21, becoming the first A24 release to cross $300 million globally. The cumulative total continued to change after that milestone, so later figures should always retain an access date.",
+      "analysis": "The durable fact is the milestone, not any single live total. The record materially changes the leverage surrounding Parsons' next projects while saying nothing by itself about what those projects will be.",
+      "sourceIds": [
+        "source-variety-backrooms-300m-2026-06-21",
+        "source-box-office-mojo-backrooms-2026"
+      ]
+    },
+    {
+      "title": "Everything Must Go adds a second ending corridor",
+      "date": "2026-07-03",
+      "classification": "Confirmed // details vary",
+      "summary": "The Everything Must Go Edition opened July 3. SIFF listed a 126-minute presentation with 15 minutes of new, theatrically exclusive post-credit footage. Other listings have circulated 16 minutes or a 127-minute runtime, so Edition 001 records the release while preserving the discrepancy.",
+      "analysis": "The bonus material is not treated as a conventional director's cut woven through the feature. Available listings describe it as post-credit footage, a distinction that matters when cataloging the edition and discussing what changed.",
+      "sourceIds": [
+        "source-siff-everything-must-go-2026-07-03"
+      ]
+    },
+    {
+      "title": "A24 opens an AI research channel; Backrooms remains outside the proven scope",
+      "date": "2026-06-22",
+      "classification": "Confirmed partnership // reported boundary",
+      "summary": "Google DeepMind and A24 confirmed a research partnership to explore filmmaker workflows. The roughly $75 million investment figure comes from attributed reporting, not the primary announcement. No reviewed source identifies Backrooms as a participating production.",
+      "analysis": "Parsons had already criticized generative AI in creative work. Kotaku later reported a Discord statement saying he was making clear that the partnership's resources were not to be spent on Backrooms. That is a meaningful stated boundary, but the original Discord context and any binding production terms still need preservation.",
+      "sourceIds": [
+        "source-deepmind-a24-partnership-2026-06-22",
+        "source-reuters-a24-deepmind-2026-06-22",
+        "source-wsj-a24-google-investment-2026-06-22",
+        "source-deadline-kane-ai-2026-06-03",
+        "source-kotaku-kane-ai-scope-2026-06-27"
+      ]
+    },
+    {
+      "title": "The sequel is a development report, not a release plan",
+      "date": "2026-06-01",
+      "classification": "Reported",
+      "summary": "Deadline reported a Backrooms sequel in early development and said Parsons was looking for a screenwriting collaborator. No production start, release date, or completed screenplay was established.",
+      "analysis": "The box-office result makes continuation commercially plausible, but early development can stall, transform, or disappear. The archive will not convert inevitability language into a confirmed production schedule.",
+      "sourceIds": [
+        "source-deadline-backrooms-sequel-2026-06-01"
+      ]
+    }
+  ],
+  "timelineHighlights": [
+    "event-2026-07-03-everything-must-go-release",
+    "event-2026-06-27-parsons-rejects-ai-use-on-backrooms",
+    "event-2026-06-26-valve-hq-visit",
+    "event-2026-06-22-a24-deepmind-partnership",
+    "event-2026-06-21-backrooms-crosses-300m",
+    "event-2026-06-05-portal-interest-reported",
+    "event-2026-06-01-backrooms-sequel-early-development"
+  ],
+  "watchList": [
+    {
+      "title": "Portal mural context",
+      "text": "Locate the original teal/orange technical drawing or door image before treating it as anything more than visual fuel for speculation."
+    },
+    {
+      "title": "People Still Live Here",
+      "text": "The official channel preserves the series, but no reliable current production-status statement has been located."
+    },
+    {
+      "title": "Japan release",
+      "text": "A September 4 date is reported; the official A24 Japan or distributor post still needs archival capture."
+    }
+  ],
+  "corrections": [],
+  "sourceIds": [
+    "source-kyle-buchanan-portal-post-2026-06-05",
+    "source-gamesradar-valve-visit-2026-06-26",
+    "source-variety-backrooms-300m-2026-06-21",
+    "source-box-office-mojo-backrooms-2026",
+    "source-siff-everything-must-go-2026-07-03",
+    "source-deepmind-a24-partnership-2026-06-22",
+    "source-reuters-a24-deepmind-2026-06-22",
+    "source-wsj-a24-google-investment-2026-06-22",
+    "source-deadline-kane-ai-2026-06-03",
+    "source-kotaku-kane-ai-scope-2026-06-27",
+    "source-deadline-backrooms-sequel-2026-06-01"
+  ],
+  "editorialNote": "Edition 001 is intentionally marked Review rather than Published. It is the first native structured dispatch and should be proofread in the generated layout before assigning a publication date."
+}

@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://the-threshold.local/schemas/edition.schema.json",
+  "title": "Threshold edition",
+  "type": "object",
+  "required": [
+    "number",
+    "slug",
+    "title",
+    "status",
+    "briefings",
+    "timelineHighlights",
+    "watchList",
+    "corrections",
+    "sourceIds"
+  ],
+  "properties": {
+    "number": {
+      "type": "string",
+      "pattern": "^[0-9]{3}$"
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "subtitle": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "publishedDate": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "updatedDate": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "dateline": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "review",
+        "published",
+        "corrected",
+        "withdrawn"
+      ]
+    },
+    "lead": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "briefings": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "timelineHighlights": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "watchList": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "corrections": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "sourceIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "editorialNote": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

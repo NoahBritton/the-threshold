@@ -4,7 +4,7 @@
   "title": "The Door Is Not Confirmation",
   "subtitle": "Portal signals, a record-breaking Backrooms run, and the boundary around what comes next.",
   "publishedDate": null,
-  "updatedDate": "2026-07-05",
+  "updatedDate": "2026-07-06",
   "dateline": "THE THRESHOLD // FIELD DISPATCH",
   "status": "review",
   "lead": {
@@ -70,6 +70,7 @@
     }
   ],
   "timelineHighlights": [
+    "event-2026-07-07-backrooms-pvod-reported",
     "event-2026-07-03-everything-must-go-release",
     "event-2026-06-27-parsons-rejects-ai-use-on-backrooms",
     "event-2026-06-26-valve-hq-visit",
@@ -80,16 +81,16 @@
   ],
   "watchList": [
     {
-      "title": "Portal mural context",
-      "text": "Locate the original teal/orange technical drawing or door image before treating it as anything more than visual fuel for speculation."
-    },
-    {
       "title": "People Still Live Here",
-      "text": "The official channel preserves the series, but no reliable current production-status statement has been located."
+      "text": "The official Kane Pixels playlist confirms the series grouping and visible entries, but no reliable current production-status statement has been located."
     },
     {
-      "title": "Japan release",
-      "text": "A September 4 date is reported; the official A24 Japan or distributor post still needs archival capture."
+      "title": "Kane Pixels upload ledger",
+      "text": "Track new official uploads and playlist changes separately from platform chatter; a new video can be confirmed without inferring a production schedule."
+    },
+    {
+      "title": "Digital release scope",
+      "text": "AP reports a July 7 premium VOD debut for U.S. purchase. Confirm whether the Everything Must Go post-credit footage is included before treating the theatrical bonus as home-viewable."
     }
   ],
   "corrections": [],
@@ -104,7 +105,9 @@
     "source-wsj-a24-google-investment-2026-06-22",
     "source-deadline-kane-ai-2026-06-03",
     "source-kotaku-kane-ai-scope-2026-06-27",
-    "source-deadline-backrooms-sequel-2026-06-01"
+    "source-deadline-backrooms-sequel-2026-06-01",
+    "source-ap-backrooms-pvod-2026-07-03",
+    "source-youtube-people-still-live-here-playlist-2026-07-06"
   ],
   "editorialNote": "Edition 001 is intentionally marked Review rather than Published. It is the first native structured dispatch and should be proofread in the generated layout before assigning a publication date."
 }

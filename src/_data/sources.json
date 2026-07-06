@@ -160,6 +160,22 @@
     "verified": true
   },
   {
+    "id": "source-ap-backrooms-pvod-2026-07-03",
+    "title": "What to Stream: Rolling Stones, ‘Little House on the Prairie’ and ‘Backrooms’",
+    "publisher": "Associated Press",
+    "creator": "The Associated Press",
+    "publishedDate": "2026-07-03",
+    "accessedDate": "2026-07-06",
+    "url": "https://apnews.com/article/46cad3b80b00ca53d8b9e09fbc35f1e0",
+    "archiveUrl": null,
+    "sourceType": "release-calendar",
+    "sourceTier": "authoritative-secondary",
+    "format": "article",
+    "availability": "public",
+    "notes": "Reports that Backrooms makes its premium video-on-demand debut on July 7, 2026, available for purchase on major streaming services. Does not state whether the Everything Must Go bonus footage is included.",
+    "verified": true
+  },
+  {
     "id": "source-backroomsmovie-japan-2026-06-28",
     "title": "Japanese Backrooms Trailer and Release Date",
     "publisher": "The Backrooms Online",
@@ -172,7 +188,23 @@
     "sourceTier": "community",
     "format": "article",
     "availability": "public",
-    "notes": "Reports a September 4 Japanese release based on A24 Japan and Happinet Phantom Studios social announcements. The canonical distributor post still needs capture.",
+    "notes": "Community report that surfaced the September 4 Japanese release before the official distributor page was added to the archive.",
+    "verified": true
+  },
+  {
+    "id": "source-a24-happinet-backrooms-japan-page-2026-07-06",
+    "title": "Backrooms",
+    "publisher": "A24×Happinet Phantom Studios",
+    "creator": null,
+    "publishedDate": null,
+    "accessedDate": "2026-07-06",
+    "url": "https://a24jp.com/films/backrooms/",
+    "archiveUrl": null,
+    "sourceType": "official-film-page",
+    "sourceTier": "primary",
+    "format": "film-listing",
+    "availability": "public",
+    "notes": "Official Japanese distributor page listing a September 4, 2026 release date and identifying Kane Parsons as director.",
     "verified": true
   },
   {
@@ -221,6 +253,22 @@
     "format": "video-index",
     "availability": "public",
     "notes": "Primary index for uploads. Playlist presence is not used to infer whether a series is actively in production, paused, or cancelled.",
+    "verified": true
+  },
+  {
+    "id": "source-youtube-people-still-live-here-playlist-2026-07-06",
+    "title": "People Still Live Here (Playlist)",
+    "publisher": "YouTube",
+    "creator": "Kane Pixels",
+    "publishedDate": null,
+    "accessedDate": "2026-07-06",
+    "url": "https://www.youtube.com/playlist?list=PLQPDpeofeiOy56d2XT37rguwBlptYL8Or",
+    "archiveUrl": null,
+    "sourceType": "official-channel",
+    "sourceTier": "primary",
+    "format": "playlist",
+    "availability": "public",
+    "notes": "Official playlist surface for People Still Live Here. On July 6, 2026 the accessible page exposed entries including SAYWELL, People Still Live Here V8.3 (2005 Gameplay), Graveyard, People Still Live Here (2005) - DAY 2 GAMEPLAY, and Sunshine. Playlist presence confirms grouping, not current production status.",
     "verified": true
   }
 ]

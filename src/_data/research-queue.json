@@ -1,5 +1,19 @@
 [
   {
+    "id": "queue-backrooms-pvod-bonus-footage",
+    "question": "Confirm whether the July 7 premium VOD release includes the Everything Must Go post-credit footage.",
+    "topic": "backrooms-release",
+    "priority": "high",
+    "status": "open",
+    "openedDate": "2026-07-06",
+    "lastChecked": "2026-07-06",
+    "sourceIds": [
+      "source-ap-backrooms-pvod-2026-07-03",
+      "source-siff-everything-must-go-2026-07-03"
+    ],
+    "notes": "AP reports a July 7 PVOD debut for U.S. purchase, but the reviewed source does not say whether the theatrically exclusive Everything Must Go footage carries over."
+  },
+  {
     "id": "queue-portal-full-exchange",
     "question": "Locate or obtain the complete early-May exchange behind Kyle Buchanan's Portal account.",
     "topic": "portal",
@@ -41,13 +55,14 @@
     "question": "Capture the canonical A24 Japan or Happinet Phantom Studios announcement for the September 4 release.",
     "topic": "backrooms-release",
     "priority": "medium",
-    "status": "open",
+    "status": "resolved",
     "openedDate": "2026-07-05",
-    "lastChecked": "2026-07-05",
+    "lastChecked": "2026-07-06",
     "sourceIds": [
+      "source-a24-happinet-backrooms-japan-page-2026-07-06",
       "source-backroomsmovie-japan-2026-06-28"
     ],
-    "notes": "The date is currently supported by a community report naming the official announcers."
+    "notes": "Resolved by the official A24×Happinet Phantom Studios film page listing a September 4, 2026 release date."
   },
   {
     "id": "queue-extended-cut-runtime-discrepancy",
@@ -83,10 +98,11 @@
     "priority": "medium",
     "status": "open",
     "openedDate": "2026-07-05",
-    "lastChecked": "2026-07-05",
+    "lastChecked": "2026-07-06",
     "sourceIds": [
+      "source-youtube-people-still-live-here-playlist-2026-07-06",
       "source-youtube-kane-pixels-channel-2026-07-05"
     ],
-    "notes": "An official playlist exists, but playlist presence alone does not establish active production, hiatus, or cancellation."
+    "notes": "The official playlist confirms the series grouping and visible entries, but no reliable current production-status statement was located. Continue tracking official uploads and descriptions rather than inferring status from playlist presence."
   }
 ]

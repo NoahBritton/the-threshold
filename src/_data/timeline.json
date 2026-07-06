@@ -1,5 +1,36 @@
 [
   {
+    "id": "event-2026-07-07-backrooms-pvod-reported",
+    "eventDate": "2026-07-07",
+    "datePrecision": "day",
+    "publishedDate": "2026-07-03",
+    "title": "Premium VOD debut reported for Backrooms",
+    "summary": "The Associated Press reported that Backrooms makes its premium video-on-demand debut on July 7, 2026, available for purchase on major streaming services.",
+    "topics": [
+      "backrooms",
+      "digital-release",
+      "pvod"
+    ],
+    "people": [
+      "kane-parsons"
+    ],
+    "organizations": [
+      "a24"
+    ],
+    "sourceIds": [
+      "source-ap-backrooms-pvod-2026-07-03"
+    ],
+    "status": "reported",
+    "confidence": "high",
+    "primarySourceAvailable": false,
+    "interpretation": "This is directly relevant to U.S. viewers, but the available AP item does not establish whether the Everything Must Go post-credit footage is included in the digital purchase.",
+    "editionRefs": [
+      "001"
+    ],
+    "lastReviewed": "2026-07-06",
+    "notes": "Confirm on retailer pages after July 7 and distinguish purchase/rental PVOD from subscription streaming."
+  },
+  {
     "id": "event-2026-07-03-everything-must-go-release",
     "eventDate": "2026-07-03",
     "datePrecision": "day",
@@ -36,8 +67,8 @@
     "eventDate": "2026-06-28",
     "datePrecision": "day",
     "publishedDate": "2026-06-28",
-    "title": "September 4 Japanese release reported",
-    "summary": "A community report says A24 Japan and Happinet Phantom Studios announced a September 4 Japanese release with a trailer and posters.",
+    "title": "September 4 Japanese release listed by A24×Happinet",
+    "summary": "The official A24×Happinet Phantom Studios Japanese film page lists Backrooms for release on September 4, 2026.",
     "topics": [
       "backrooms",
       "international-release",
@@ -51,15 +82,16 @@
       "happinet-phantom-studios"
     ],
     "sourceIds": [
+      "source-a24-happinet-backrooms-japan-page-2026-07-06",
       "source-backroomsmovie-japan-2026-06-28"
     ],
-    "status": "reported",
-    "confidence": "medium",
-    "primarySourceAvailable": false,
+    "status": "confirmed",
+    "confidence": "high",
+    "primarySourceAvailable": true,
     "interpretation": null,
     "editionRefs": [],
-    "lastReviewed": "2026-07-05",
-    "notes": "Promote to confirmed only after preserving the official distributor announcement."
+    "lastReviewed": "2026-07-06",
+    "notes": "The community report remains useful for tracking when the announcement surfaced; the official distributor page now supplies the confirmation."
   },
   {
     "id": "event-2026-06-27-parsons-rejects-ai-use-on-backrooms",

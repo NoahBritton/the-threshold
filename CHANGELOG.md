@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.2.1 — 2026-07-06
+
+### Changed
+
+- Confirmed the September 4 Japanese Backrooms release from the official A24×Happinet Phantom Studios film page.
+- Added AP's July 7 premium VOD report and tracked the unresolved question of whether Everything Must Go footage is included.
+- Reworked Edition 001's active watch file to emphasize official YouTube, series tracking, and U.S. digital-release relevance instead of the Portal mural lead.
+- Added the official People Still Live Here playlist as primary YouTube evidence while preserving uncertainty around current production status.
+
 ## 0.2.0 — 2026-07-05
 
 ### Changed

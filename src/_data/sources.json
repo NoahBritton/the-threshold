@@ -5,14 +5,14 @@
     "publisher": "A24",
     "creator": null,
     "publishedDate": null,
-    "accessedDate": "2026-07-05",
+    "accessedDate": "2026-07-09",
     "url": "https://a24films.com/films/backrooms",
     "archiveUrl": null,
     "sourceType": "studio-statement",
     "sourceTier": "primary",
     "format": "official-film-page",
     "availability": "public",
-    "notes": "Official A24 film listing identifying Kane Parsons as director and Will Soodik as writer.",
+    "notes": "Official A24 film listing identifying Kane Parsons as director and Will Soodik as writer. On July 9, 2026, the page included Get Tickets and Pre-Order links to Apple TV, Amazon, Fandango at Home, and Kaleidescape.",
     "verified": true
   },
   {
@@ -304,6 +304,22 @@
     "verified": true
   },
   {
+    "id": "source-prime-video-backrooms-preorder-2026-07-09",
+    "title": "Backrooms",
+    "publisher": "Prime Video",
+    "creator": null,
+    "publishedDate": null,
+    "accessedDate": "2026-07-09",
+    "url": "https://www.amazon.com/gp/video/detail/B0H3W7W88L",
+    "archiveUrl": null,
+    "sourceType": "retailer-listing",
+    "sourceTier": "authoritative-secondary",
+    "format": "video-store-page",
+    "availability": "public",
+    "notes": "Retailer listing showed Backrooms as available to pre-order in UHD for $24.99 and listed Release Date: July 13, 2026 9:00 PM PDT. The page did not identify whether Everything Must Go bonus footage is included.",
+    "verified": true
+  },
+  {
     "id": "source-apple-tv-backrooms-search-2026-07-08",
     "title": "Apple TV search result for Backrooms",
     "publisher": "Apple TV",
@@ -333,6 +349,22 @@
     "format": "article",
     "availability": "public",
     "notes": "Reported that Backrooms did not arrive on digital platforms on July 7 despite earlier expectations, and that A24 had not confirmed a digital date. Useful as a report on the missed expectation, not as primary release metadata.",
+    "verified": true
+  },
+  {
+    "id": "source-fandango-at-home-backrooms-page-2026-07-09",
+    "title": "Backrooms",
+    "publisher": "Fandango at Home",
+    "creator": null,
+    "publishedDate": null,
+    "accessedDate": "2026-07-09",
+    "url": "https://athome.fandango.com/content/browse/details/Backrooms/4994064",
+    "archiveUrl": null,
+    "sourceType": "retailer-listing",
+    "sourceTier": "authoritative-secondary",
+    "format": "video-store-page",
+    "availability": "public",
+    "notes": "Retailer page linked from A24's official Backrooms page during the July 9 pre-publication check. Static page extraction did not expose reliable price, release-date, or bonus-footage metadata.",
     "verified": true
   },
   {

@@ -1,5 +1,16 @@
 # Research Log
 
+## 2026-07-09 - Edition 002 publication check
+
+The final pre-publication storefront check found a material overnight change: A24's official Backrooms page now linked to pre-order storefronts, and Prime Video listed a July 13, 2026 9:00 PM PDT release time.
+
+Key decisions:
+
+- Edition 002 moved from **review** to **published**.
+- The July 8 disputed event remains in the ledger because it explains why the archive does not describe July 7 as a completed PVOD launch.
+- A new July 9 event records the official A24 pre-order surface and Prime Video's dated pre-order metadata.
+- The Everything Must Go bonus-footage question remains open because the reviewed home-release storefronts did not identify the theatrical post-credit footage as included.
+
 ## 2026-07-08 - Edition 002 digital-release audit
 
 This pass checked whether AP's reported July 7 PVOD date resolved into actual U.S. home-viewing availability and whether the Everything Must Go footage could be tied to digital purchase.

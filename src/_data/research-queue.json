@@ -6,15 +6,18 @@
     "priority": "high",
     "status": "open",
     "openedDate": "2026-07-06",
-    "lastChecked": "2026-07-08",
+    "lastChecked": "2026-07-09",
     "sourceIds": [
       "source-ap-backrooms-pvod-2026-07-03",
       "source-siff-everything-must-go-2026-07-03",
       "source-prime-video-backrooms-preorder-2026-07-08",
+      "source-a24-backrooms-film-page-2026",
+      "source-prime-video-backrooms-preorder-2026-07-09",
       "source-apple-tv-backrooms-search-2026-07-08",
-      "source-decider-backrooms-digital-delay-2026-07-07"
+      "source-decider-backrooms-digital-delay-2026-07-07",
+      "source-fandango-at-home-backrooms-page-2026-07-09"
     ],
-    "notes": "After the reported July 7 PVOD date, Prime Video still showed a pre-order page with release date coming soon, and Apple TV search showed Backrooms as unavailable. Confirm platform availability and whether Everything Must Go footage carries over before treating the digital release as launched."
+    "notes": "After the reported July 7 PVOD date, July 8 storefront checks did not show a clean launch. On July 9, A24 listed pre-order links and Prime Video listed July 13, 2026 at 9:00 PM PDT. Confirm actual rental/purchase availability and whether Everything Must Go footage carries over before treating the digital release as complete."
   },
   {
     "id": "queue-portal-full-exchange",

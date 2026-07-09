@@ -65,7 +65,44 @@
       "002"
     ],
     "lastReviewed": "2026-07-08",
-    "notes": "Recheck storefronts before publication because digital availability can change without a press release."
+    "notes": "Rechecked July 9; the A24 film page then linked pre-order pages and Prime Video listed a July 13 release time. This event remains the record of the July 8 mismatch."
+  },
+  {
+    "id": "event-2026-07-09-backrooms-preorder-path-listed",
+    "eventDate": "2026-07-09",
+    "datePrecision": "day",
+    "publishedDate": null,
+    "title": "A24 page points to Backrooms pre-order storefronts",
+    "summary": "A24's official Backrooms page displayed pre-order links to Apple TV, Amazon, Fandango at Home, and Kaleidescape. Prime Video listed the title as a UHD pre-order with a July 13, 2026 9:00 PM PDT release time.",
+    "topics": [
+      "backrooms",
+      "digital-release",
+      "pvod"
+    ],
+    "people": [
+      "kane-parsons"
+    ],
+    "organizations": [
+      "a24",
+      "prime-video",
+      "apple-tv",
+      "fandango-at-home",
+      "kaleidescape"
+    ],
+    "sourceIds": [
+      "source-a24-backrooms-film-page-2026",
+      "source-prime-video-backrooms-preorder-2026-07-09",
+      "source-fandango-at-home-backrooms-page-2026-07-09"
+    ],
+    "status": "partially-confirmed",
+    "confidence": "high",
+    "primarySourceAvailable": true,
+    "interpretation": "The official storefront path is now visible, but the reviewed sources still support pre-order rather than immediate PVOD availability and do not establish whether Everything Must Go footage is included.",
+    "editionRefs": [
+      "002"
+    ],
+    "lastReviewed": "2026-07-09",
+    "notes": "Prime Video supplied the clearest dated retailer metadata. A24 supplied the official cross-store pre-order surface. Bonus-footage scope remains unresolved."
   },
   {
     "id": "event-2026-07-03-everything-must-go-release",

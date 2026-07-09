@@ -2,24 +2,36 @@
   "number": "002",
   "slug": "002",
   "title": "The Release Date Became a Question",
-  "subtitle": "Backrooms reached the week of its reported PVOD debut, but the storefront evidence still points to a release in motion rather than a settled home-viewing answer.",
-  "publishedDate": null,
-  "updatedDate": "2026-07-08",
+  "subtitle": "Backrooms has an official pre-order path after the missed July 7 PVOD expectation, but the home-viewing version still has one important unanswered question.",
+  "publishedDate": "2026-07-09",
+  "updatedDate": "2026-07-09",
   "dateline": "THE THRESHOLD // FIELD DISPATCH",
-  "status": "review",
+  "status": "published",
   "lead": {
-    "title": "The calendar was not enough",
-    "summary": "Edition 001 logged AP's July 7 premium-video-on-demand report as a useful U.S. viewer lead. Edition 002 checks that lead against retailer pages after the date arrived. The result is not a clean launch record: Prime Video exposed a pre-order page with release date still coming soon, Apple TV search showed the title as unavailable, and theatrical listings continued to describe the Everything Must Go footage as theatrically exclusive."
+    "title": "The date moved from launch to pre-order",
+    "summary": "Edition 001 logged AP's July 7 premium-video-on-demand report as a useful U.S. viewer lead. That date did not resolve into a clean platform-wide launch during the July 8 check. By July 9, A24's own Backrooms page pointed viewers to pre-order storefronts, and Prime Video listed a July 13 release time. The home-release path is now visible, but the Everything Must Go footage remains unconfirmed for home viewing."
   },
   "briefings": [
     {
-      "title": "The July 7 PVOD date is now disputed evidence",
-      "date": "2026-07-08",
-      "classification": "Disputed // platform-specific",
-      "summary": "AP reported a July 7 PVOD debut, but Prime Video still listed Backrooms as a UHD pre-order with release date coming soon when checked July 8. Apple TV search likewise displayed the title as unavailable in the U.S. storefront.",
-      "analysis": "The archive should no longer phrase July 7 as an accomplished digital release. It can be described as a reported date that failed to resolve into platform-wide availability during the reviewed check. Storefront availability is volatile, so this remains a moving file rather than a final correction.",
+      "title": "A24 now points to the pre-order corridor",
+      "date": "2026-07-09",
+      "classification": "Partially confirmed // pre-order",
+      "summary": "A24's official Backrooms page displayed pre-order links to Apple TV, Amazon, Fandango at Home, and Kaleidescape. Prime Video listed Backrooms as a UHD pre-order at $24.99 with a release date of July 13, 2026 at 9:00 PM PDT.",
+      "analysis": "This supersedes the July 8 uncertainty about whether any official home-release path existed. It does not validate AP's July 7 item as an accomplished launch, and it still does not establish what version buyers receive.",
       "sourceIds": [
-        "source-ap-backrooms-pvod-2026-07-03",
+        "source-a24-backrooms-film-page-2026",
+        "source-prime-video-backrooms-preorder-2026-07-09",
+        "source-fandango-at-home-backrooms-page-2026-07-09",
+        "source-ap-backrooms-pvod-2026-07-03"
+      ]
+    },
+    {
+      "title": "July 7 remains the wrong clean headline",
+      "date": "2026-07-08",
+      "classification": "Disputed // superseded",
+      "summary": "The day after the reported PVOD date, Prime Video still exposed a pre-order page and Apple TV search showed Backrooms as unavailable in the U.S. storefront. Decider separately reported that the expected digital release had not arrived on July 7.",
+      "analysis": "The archive preserves this as the reason Edition 002 does not simply say Backrooms came to PVOD on July 7. The better wording is that a pre-order path appeared after the expected date, with Prime Video pointing to July 13.",
+      "sourceIds": [
         "source-prime-video-backrooms-preorder-2026-07-08",
         "source-apple-tv-backrooms-search-2026-07-08",
         "source-decider-backrooms-digital-delay-2026-07-07"
@@ -62,6 +74,7 @@
     }
   ],
   "timelineHighlights": [
+    "event-2026-07-09-backrooms-preorder-path-listed",
     "event-2026-07-08-backrooms-digital-status-disputed",
     "event-2026-07-07-backrooms-pvod-reported",
     "event-2026-07-03-everything-must-go-release",
@@ -69,8 +82,8 @@
   ],
   "watchList": [
     {
-      "title": "Retailer proof",
-      "text": "Recheck Prime Video, Apple TV, Fandango at Home, and A24 surfaces before publication. Treat each storefront independently because one page can update before the others."
+      "title": "July 13 release check",
+      "text": "Prime Video lists July 13, 2026 at 9:00 PM PDT. Recheck the listed storefronts at that point before describing Backrooms as available to rent or buy."
     },
     {
       "title": "Bonus-footage scope",
@@ -84,9 +97,12 @@
   "corrections": [],
   "sourceIds": [
     "source-ap-backrooms-pvod-2026-07-03",
+    "source-a24-backrooms-film-page-2026",
     "source-prime-video-backrooms-preorder-2026-07-08",
+    "source-prime-video-backrooms-preorder-2026-07-09",
     "source-apple-tv-backrooms-search-2026-07-08",
     "source-decider-backrooms-digital-delay-2026-07-07",
+    "source-fandango-at-home-backrooms-page-2026-07-09",
     "source-a24-x-everything-must-go-2026-07-03",
     "source-siff-everything-must-go-2026-07-03",
     "source-loft-everything-must-go-2026-07-08",
@@ -96,5 +112,5 @@
     "source-people-backrooms-sequel-plan-2026-06-02",
     "source-deadline-backrooms-sequel-2026-06-01"
   ],
-  "editorialNote": "Edition 002 is in review while storefront availability is rechecked. Publish only after confirming whether the Prime Video pre-order state, Apple TV unavailability state, and any Fandango at Home listing have changed."
+  "editorialNote": null
 }

@@ -6,12 +6,18 @@
     "priority": "high",
     "status": "open",
     "openedDate": "2026-07-06",
-    "lastChecked": "2026-07-06",
+    "lastChecked": "2026-07-09",
     "sourceIds": [
       "source-ap-backrooms-pvod-2026-07-03",
-      "source-siff-everything-must-go-2026-07-03"
+      "source-siff-everything-must-go-2026-07-03",
+      "source-prime-video-backrooms-preorder-2026-07-08",
+      "source-a24-backrooms-film-page-2026",
+      "source-prime-video-backrooms-preorder-2026-07-09",
+      "source-apple-tv-backrooms-search-2026-07-08",
+      "source-decider-backrooms-digital-delay-2026-07-07",
+      "source-fandango-at-home-backrooms-page-2026-07-09"
     ],
-    "notes": "AP reports a July 7 PVOD debut for U.S. purchase, but the reviewed source does not say whether the theatrically exclusive Everything Must Go footage carries over."
+    "notes": "After the reported July 7 PVOD date, July 8 storefront checks did not show a clean launch. On July 9, A24 listed pre-order links and Prime Video listed July 13, 2026 at 9:00 PM PDT. Confirm actual rental/purchase availability and whether Everything Must Go footage carries over before treating the digital release as complete."
   },
   {
     "id": "queue-portal-full-exchange",
@@ -71,11 +77,14 @@
     "priority": "medium",
     "status": "open",
     "openedDate": "2026-07-05",
-    "lastChecked": "2026-07-05",
+    "lastChecked": "2026-07-08",
     "sourceIds": [
-      "source-siff-everything-must-go-2026-07-03"
+      "source-siff-everything-must-go-2026-07-03",
+      "source-a24-x-everything-must-go-2026-07-03",
+      "source-loft-everything-must-go-2026-07-08",
+      "source-laemmle-everything-must-go-2026-07-08"
     ],
-    "notes": "SIFF lists 126 minutes and 15 minutes of new footage; other exhibitor and press listings differ slightly."
+    "notes": "A24 and some exhibitors describe 16 minutes, while SIFF and Laemmle describe 15 minutes. Runtime listings still vary between 126 and 127 minutes. The footage is consistently framed as post-credit and theatrically exclusive in reviewed listings."
   },
   {
     "id": "queue-a24-ai-backrooms-primary",
@@ -105,5 +114,18 @@
       "source-complex-kane-parsons-interview-2026-05-29"
     ],
     "notes": "A direct Complex interview makes People Still Live Here the strongest non-Backrooms YouTube-side item to monitor, but no reliable current production-status statement or release window was located. Continue tracking official uploads, descriptions, and playlist changes rather than inferring status from playlist presence."
+  },
+  {
+    "id": "queue-everything-must-go-discord-context",
+    "question": "Capture the original Discord context for Parsons' Everything Must Go process comments.",
+    "topic": "backrooms-release",
+    "priority": "medium",
+    "status": "open",
+    "openedDate": "2026-07-08",
+    "lastChecked": "2026-07-08",
+    "sourceIds": [
+      "source-gamesradar-everything-must-go-process-2026-07-03"
+    ],
+    "notes": "GamesRadar+ reports the Discord comments about making the footage in Blender on a laptop in just under two weeks. Locate the original post and surrounding context before promoting the process note to primary evidence."
   }
 ]

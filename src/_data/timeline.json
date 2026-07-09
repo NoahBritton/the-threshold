@@ -25,10 +25,84 @@
     "primarySourceAvailable": false,
     "interpretation": "This is directly relevant to U.S. viewers, but the available AP item does not establish whether the Everything Must Go post-credit footage is included in the digital purchase.",
     "editionRefs": [
-      "001"
+      "001",
+      "002"
     ],
     "lastReviewed": "2026-07-06",
-    "notes": "Confirm on retailer pages after July 7 and distinguish purchase/rental PVOD from subscription streaming."
+    "notes": "Retailer checks on July 8 complicated the July 7 report rather than confirming a clean launch; see the follow-up disputed digital-status event."
+  },
+  {
+    "id": "event-2026-07-08-backrooms-digital-status-disputed",
+    "eventDate": "2026-07-08",
+    "datePrecision": "day",
+    "publishedDate": null,
+    "title": "Backrooms digital availability remains unresolved after reported PVOD date",
+    "summary": "After the reported July 7 premium VOD date, Prime Video still listed Backrooms as a UHD pre-order with release date coming soon, while Apple TV search displayed the title as unavailable in the U.S. storefront.",
+    "topics": [
+      "backrooms",
+      "digital-release",
+      "pvod"
+    ],
+    "people": [
+      "kane-parsons"
+    ],
+    "organizations": [
+      "a24",
+      "prime-video",
+      "apple-tv"
+    ],
+    "sourceIds": [
+      "source-ap-backrooms-pvod-2026-07-03",
+      "source-prime-video-backrooms-preorder-2026-07-08",
+      "source-apple-tv-backrooms-search-2026-07-08",
+      "source-decider-backrooms-digital-delay-2026-07-07"
+    ],
+    "status": "disputed",
+    "confidence": "high",
+    "primarySourceAvailable": true,
+    "interpretation": "The safe claim is that the July 7 date became contested in public availability data. It should not be described as a completed PVOD launch without platform-specific proof.",
+    "editionRefs": [
+      "002"
+    ],
+    "lastReviewed": "2026-07-08",
+    "notes": "Rechecked July 9; the A24 film page then linked pre-order pages and Prime Video listed a July 13 release time. This event remains the record of the July 8 mismatch."
+  },
+  {
+    "id": "event-2026-07-09-backrooms-preorder-path-listed",
+    "eventDate": "2026-07-09",
+    "datePrecision": "day",
+    "publishedDate": null,
+    "title": "A24 page points to Backrooms pre-order storefronts",
+    "summary": "A24's official Backrooms page displayed pre-order links to Apple TV, Amazon, Fandango at Home, and Kaleidescape. Prime Video listed the title as a UHD pre-order with a July 13, 2026 9:00 PM PDT release time.",
+    "topics": [
+      "backrooms",
+      "digital-release",
+      "pvod"
+    ],
+    "people": [
+      "kane-parsons"
+    ],
+    "organizations": [
+      "a24",
+      "prime-video",
+      "apple-tv",
+      "fandango-at-home",
+      "kaleidescape"
+    ],
+    "sourceIds": [
+      "source-a24-backrooms-film-page-2026",
+      "source-prime-video-backrooms-preorder-2026-07-09",
+      "source-fandango-at-home-backrooms-page-2026-07-09"
+    ],
+    "status": "partially-confirmed",
+    "confidence": "high",
+    "primarySourceAvailable": true,
+    "interpretation": "The official storefront path is now visible, but the reviewed sources still support pre-order rather than immediate PVOD availability and do not establish whether Everything Must Go footage is included.",
+    "editionRefs": [
+      "002"
+    ],
+    "lastReviewed": "2026-07-09",
+    "notes": "Prime Video supplied the clearest dated retailer metadata. A24 supplied the official cross-store pre-order surface. Bonus-footage scope remains unresolved."
   },
   {
     "id": "event-2026-07-03-everything-must-go-release",
@@ -50,17 +124,22 @@
       "siff"
     ],
     "sourceIds": [
-      "source-siff-everything-must-go-2026-07-03"
+      "source-siff-everything-must-go-2026-07-03",
+      "source-a24-x-everything-must-go-2026-07-03",
+      "source-loft-everything-must-go-2026-07-08",
+      "source-laemmle-everything-must-go-2026-07-08",
+      "source-gamesradar-everything-must-go-process-2026-07-03"
     ],
     "status": "confirmed",
     "confidence": "high",
     "primarySourceAvailable": false,
     "interpretation": null,
     "editionRefs": [
-      "001"
+      "001",
+      "002"
     ],
-    "lastReviewed": "2026-07-05",
-    "notes": "Other listings and reports vary between 15 and 16 minutes and between 2h6m and 2h7m. The discrepancy remains visible in the research queue."
+    "lastReviewed": "2026-07-08",
+    "notes": "A24 and some exhibitor listings describe 16 minutes of footage, while SIFF and Laemmle use 15 minutes. Runtime listings vary between 126 and 127 minutes. Multiple listings describe the material as theatrically exclusive post-credit footage."
   },
   {
     "id": "event-2026-06-28-japan-release-announcement",
@@ -301,16 +380,18 @@
       "a24"
     ],
     "sourceIds": [
-      "source-deadline-backrooms-sequel-2026-06-01"
+      "source-deadline-backrooms-sequel-2026-06-01",
+      "source-people-backrooms-sequel-plan-2026-06-02"
     ],
     "status": "reported",
     "confidence": "high",
     "primarySourceAvailable": false,
     "interpretation": null,
     "editionRefs": [
-      "001"
+      "001",
+      "002"
     ],
-    "lastReviewed": "2026-07-05",
-    "notes": "Early development can change or stall. Do not describe the sequel as shooting, dated, or formally greenlit without later evidence."
+    "lastReviewed": "2026-07-08",
+    "notes": "People's follow-up preserves Parsons' narrative-plan language while also stating that no sequel had been officially greenlit and no cast attachments had been announced."
   }
 ]

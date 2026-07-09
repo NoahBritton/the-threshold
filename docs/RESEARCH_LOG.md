@@ -1,5 +1,18 @@
 # Research Log
 
+## 2026-07-08 - Edition 002 digital-release audit
+
+This pass checked whether AP's reported July 7 PVOD date resolved into actual U.S. home-viewing availability and whether the Everything Must Go footage could be tied to digital purchase.
+
+Key decisions:
+
+- Edition 002 was opened in **review** status rather than published because storefront availability remains volatile.
+- Prime Video showed Backrooms as a UHD pre-order with release date coming soon on July 8, while Apple TV search showed the title as unavailable in the U.S. storefront.
+- The July 7 PVOD item remains in the ledger as a reported date, but a new disputed follow-up event records that the date had not resolved into clean platform-wide availability during the reviewed check.
+- Everything Must Go is confirmed as theatrical evidence, but listings vary between 15 and 16 minutes and between 126 and 127 minutes.
+- Reviewed theatrical listings continue to describe the bonus footage as theatrically exclusive, so Edition 002 does not claim the footage is included in any digital version.
+- GamesRadar+ reported Parsons' Discord comments about making the Everything Must Go footage quickly in Blender on his laptop; the original Discord context remains a follow-up target.
+
 ## 2026-07-06 — Edition 001 follow-up audit
 
 This pass checked whether any unresolved Edition 001 items could be strengthened before publication.

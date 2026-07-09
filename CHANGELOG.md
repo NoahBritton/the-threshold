@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3.0 - Unreleased
+
+### Added
+
+- Drafted Edition 002, focused on the unresolved Backrooms home-release state after the reported July 7 PVOD date.
+- Added Prime Video, Apple TV, Decider, A24, exhibitor, GamesRadar+, and People source records for the digital-release and Everything Must Go follow-up.
+- Added a disputed timeline event for July 8 storefront availability and expanded the Everything Must Go evidence set.
+
 ## 0.2.1 — 2026-07-06
 
 ### Changed

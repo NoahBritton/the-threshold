@@ -105,6 +105,44 @@
     "notes": "Prime Video supplied the clearest dated retailer metadata. A24 supplied the official cross-store pre-order surface. Bonus-footage scope remains unresolved."
   },
   {
+    "id": "event-2026-07-10-backrooms-digital-date-consolidates",
+    "eventDate": "2026-07-10",
+    "datePrecision": "day",
+    "publishedDate": "2026-07-10",
+    "title": "Backrooms digital date consolidates around July 14",
+    "summary": "Home-entertainment reporting on July 10 described Backrooms as available to rent or buy digitally on July 14, while Prime Video continued to list a July 13, 2026 9:00 PM PDT release time.",
+    "topics": [
+      "backrooms",
+      "digital-release",
+      "pvod"
+    ],
+    "people": [
+      "kane-parsons"
+    ],
+    "organizations": [
+      "a24",
+      "prime-video",
+      "fandango-at-home",
+      "apple-tv"
+    ],
+    "sourceIds": [
+      "source-screen-connections-backrooms-digital-2026-07-10",
+      "source-bloody-disgusting-backrooms-digital-2026-07-10",
+      "source-slashfilm-backrooms-digital-2026-07-10",
+      "source-a24-backrooms-preorder-surface-2026-07-11",
+      "source-prime-video-backrooms-preorder-2026-07-11"
+    ],
+    "status": "partially-confirmed",
+    "confidence": "high",
+    "primarySourceAvailable": true,
+    "interpretation": "The public date should be tracked as July 14 for ordinary U.S. viewers, with Prime's July 13 timestamp understood as a Pacific-time evening release. Reviewed sources still do not prove Everything Must Go footage is part of the digital version.",
+    "editionRefs": [
+      "003"
+    ],
+    "lastReviewed": "2026-07-11",
+    "notes": "The event records date consolidation before actual release. Actual availability and version scope should be rechecked on July 14."
+  },
+  {
     "id": "event-2026-07-03-everything-must-go-release",
     "eventDate": "2026-07-03",
     "datePrecision": "day",

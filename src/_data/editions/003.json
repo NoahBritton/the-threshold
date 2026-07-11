@@ -1,0 +1,107 @@
+{
+  "number": "003",
+  "slug": "003",
+  "title": "The Date Has a Time Zone",
+  "subtitle": "Backrooms now has a cleaner July 14 home-release target, while Prime Video's July 13 timestamp explains the remaining one-day wobble.",
+  "publishedDate": null,
+  "updatedDate": "2026-07-11",
+  "dateline": "THE THRESHOLD // FIELD DISPATCH",
+  "status": "review",
+  "lead": {
+    "title": "The date finally stops sliding, mostly",
+    "summary": "Edition 002 left Backrooms in a pre-order corridor: A24 had opened storefront links, Prime Video showed a July 13 evening timestamp, and the earlier July 7 report had clearly failed as a launch date. Edition 003 narrows the record. July 10 home-entertainment reporting now points to Tuesday, July 14 as the ordinary digital rent-or-buy date, while Prime's July 13 9:00 PM PDT listing explains why some pages still appear one calendar day earlier."
+  },
+  "briefings": [
+    {
+      "title": "July 14 becomes the clean viewer-facing date",
+      "date": "2026-07-10",
+      "classification": "Partially confirmed // pre-release",
+      "summary": "Screen-Connections, Bloody Disgusting, and /Film all reported July 14 as the digital rent-or-buy date. The A24 page continued to expose official pre-order links, and Prime Video continued to list July 13, 2026 at 9:00 PM PDT.",
+      "analysis": "For U.S. viewers, this resolves the apparent contradiction better than creating a new one: July 13 at 9 PM Pacific is July 14 in much of the country and matches the Tuesday home-video reporting. The archive should still wait for actual availability before calling the release complete.",
+      "sourceIds": [
+        "source-screen-connections-backrooms-digital-2026-07-10",
+        "source-bloody-disgusting-backrooms-digital-2026-07-10",
+        "source-slashfilm-backrooms-digital-2026-07-10",
+        "source-a24-backrooms-preorder-surface-2026-07-11",
+        "source-prime-video-backrooms-preorder-2026-07-11"
+      ]
+    },
+    {
+      "title": "The bonus-footage question survives the date",
+      "date": "2026-07-11",
+      "classification": "Open // version scope",
+      "summary": "Reviewed storefront and home-entertainment sources identify the standard home-release path, but none of them say the Everything Must Go post-credit footage is included in the digital version.",
+      "analysis": "That makes Edition 003 narrower than a victory lap. The digital date is stronger; the version question is not. Until a storefront lists an extended edition, bonus item, runtime, or extras package, the theatrical footage remains outside the proven home-viewing scope.",
+      "sourceIds": [
+        "source-prime-video-backrooms-preorder-2026-07-11",
+        "source-slashfilm-backrooms-digital-2026-07-10",
+        "source-a24-backrooms-preorder-surface-2026-07-11",
+        "source-a24-x-everything-must-go-2026-07-03",
+        "source-loft-everything-must-go-2026-07-08"
+      ]
+    },
+    {
+      "title": "The July 7 miss is now historical context",
+      "date": "2026-07-07",
+      "classification": "Disputed // superseded",
+      "summary": "The earlier July 7 PVOD expectation remains useful because it explains why the release file looked unstable. Later evidence now points away from July 7 and toward July 14.",
+      "analysis": "The correct editorial move is not to erase the miss. Edition 003 keeps it as the audit trail: AP reported July 7, Decider documented the failure to appear that day, A24 opened pre-orders after that, and the date then consolidated around July 14.",
+      "sourceIds": [
+        "source-ap-backrooms-pvod-2026-07-03",
+        "source-decider-backrooms-digital-delay-2026-07-07",
+        "source-prime-video-backrooms-preorder-2026-07-09",
+        "source-screen-connections-backrooms-digital-2026-07-10"
+      ]
+    },
+    {
+      "title": "No new official YouTube-side signal surfaced",
+      "date": "2026-07-11",
+      "classification": "No change // channel check",
+      "summary": "A fresh official Kane Pixels channel surface check did not expose a new canonical People Still Live Here or Backrooms-series upload beyond the already tracked visible titles.",
+      "analysis": "This is included as a negative finding because Edition 001 and Edition 002 both kept YouTube-side continuity on watch. No new official upload should be inferred from chatter; the next meaningful update still needs to come from the channel, playlist metadata, or a primary creator statement.",
+      "sourceIds": [
+        "source-youtube-kane-pixels-channel-2026-07-11",
+        "source-youtube-people-still-live-here-playlist-2026-07-06",
+        "source-complex-kane-parsons-interview-2026-05-29"
+      ]
+    }
+  ],
+  "timelineHighlights": [
+    "event-2026-07-10-backrooms-digital-date-consolidates",
+    "event-2026-07-09-backrooms-preorder-path-listed",
+    "event-2026-07-08-backrooms-digital-status-disputed",
+    "event-2026-07-07-backrooms-pvod-reported",
+    "event-2026-07-03-everything-must-go-release"
+  ],
+  "watchList": [
+    {
+      "title": "July 14 availability",
+      "text": "Check Apple TV, Prime Video, Fandango at Home, and A24 on July 14 before describing Backrooms as actually available to rent or buy."
+    },
+    {
+      "title": "Version and runtime",
+      "text": "Capture runtime, extras, and edition labels once the digital version is playable. Do not infer Everything Must Go inclusion from a generic Backrooms listing."
+    },
+    {
+      "title": "YouTube-side continuity",
+      "text": "Keep People Still Live Here and official Kane Pixels uploads on watch, but treat the July 11 channel check as no new canonical update."
+    }
+  ],
+  "corrections": [],
+  "sourceIds": [
+    "source-screen-connections-backrooms-digital-2026-07-10",
+    "source-bloody-disgusting-backrooms-digital-2026-07-10",
+    "source-slashfilm-backrooms-digital-2026-07-10",
+    "source-a24-backrooms-preorder-surface-2026-07-11",
+    "source-prime-video-backrooms-preorder-2026-07-11",
+    "source-ap-backrooms-pvod-2026-07-03",
+    "source-decider-backrooms-digital-delay-2026-07-07",
+    "source-prime-video-backrooms-preorder-2026-07-09",
+    "source-a24-x-everything-must-go-2026-07-03",
+    "source-loft-everything-must-go-2026-07-08",
+    "source-youtube-kane-pixels-channel-2026-07-11",
+    "source-youtube-people-still-live-here-playlist-2026-07-06",
+    "source-complex-kane-parsons-interview-2026-05-29"
+  ],
+  "editorialNote": "Edition 003 is in review until the user approves publication. Before publishing, recheck whether the July 14 digital listing has changed or whether a storefront identifies the Everything Must Go footage."
+}

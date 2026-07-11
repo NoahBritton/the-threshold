@@ -41,17 +41,6 @@
       ]
     },
     {
-      "title": "The home release arrives while the market signal is still warm",
-      "date": "2026-07-11",
-      "classification": "Context // reported",
-      "summary": "The Numbers listed Backrooms at roughly $366.9 million worldwide on July 11, including about $193.2 million domestic and $173.7 million international. CinemaBlend separately framed Backrooms and Obsession as recent proof points for internet-originated horror while covering an SCP Foundation feature adaptation.",
-      "analysis": "This is not a new Kane Parsons project and should not be treated as one. It does, however, explain why the home-release date is more than housekeeping: Backrooms is moving into digital while it is still useful as an industry example of web-native horror crossing over commercially.",
-      "sourceIds": [
-        "source-the-numbers-backrooms-2026-07-11",
-        "source-cinemablend-scp-backrooms-context-2026-07-07"
-      ]
-    },
-    {
       "title": "The July 7 miss is now historical context",
       "date": "2026-07-07",
       "classification": "Disputed // superseded",
@@ -79,7 +68,6 @@
   ],
   "timelineHighlights": [
     "event-2026-07-10-backrooms-digital-date-consolidates",
-    "event-2026-07-11-backrooms-market-context",
     "event-2026-07-09-backrooms-preorder-path-listed",
     "event-2026-07-08-backrooms-digital-status-disputed",
     "event-2026-07-07-backrooms-pvod-reported",
@@ -109,8 +97,6 @@
     "source-ap-backrooms-pvod-2026-07-03",
     "source-decider-backrooms-digital-delay-2026-07-07",
     "source-prime-video-backrooms-preorder-2026-07-09",
-    "source-the-numbers-backrooms-2026-07-11",
-    "source-cinemablend-scp-backrooms-context-2026-07-07",
     "source-a24-x-everything-must-go-2026-07-03",
     "source-loft-everything-must-go-2026-07-08",
     "source-youtube-kane-pixels-channel-2026-07-11",

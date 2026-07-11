@@ -6,18 +6,23 @@
     "priority": "high",
     "status": "open",
     "openedDate": "2026-07-06",
-    "lastChecked": "2026-07-09",
+    "lastChecked": "2026-07-11",
     "sourceIds": [
       "source-ap-backrooms-pvod-2026-07-03",
       "source-siff-everything-must-go-2026-07-03",
       "source-prime-video-backrooms-preorder-2026-07-08",
       "source-a24-backrooms-film-page-2026",
       "source-prime-video-backrooms-preorder-2026-07-09",
+      "source-a24-backrooms-preorder-surface-2026-07-11",
+      "source-prime-video-backrooms-preorder-2026-07-11",
+      "source-screen-connections-backrooms-digital-2026-07-10",
+      "source-bloody-disgusting-backrooms-digital-2026-07-10",
+      "source-slashfilm-backrooms-digital-2026-07-10",
       "source-apple-tv-backrooms-search-2026-07-08",
       "source-decider-backrooms-digital-delay-2026-07-07",
       "source-fandango-at-home-backrooms-page-2026-07-09"
     ],
-    "notes": "After the reported July 7 PVOD date, July 8 storefront checks did not show a clean launch. On July 9, A24 listed pre-order links and Prime Video listed July 13, 2026 at 9:00 PM PDT. Confirm actual rental/purchase availability and whether Everything Must Go footage carries over before treating the digital release as complete."
+    "notes": "After the reported July 7 PVOD date, July 8 storefront checks did not show a clean launch. On July 9, A24 listed pre-order links and Prime Video listed July 13, 2026 at 9:00 PM PDT. July 10 reporting consolidated the viewer-facing date around July 14. Confirm actual rental/purchase availability and whether Everything Must Go footage carries over before treating the digital release as complete."
   },
   {
     "id": "queue-portal-full-exchange",
@@ -107,13 +112,14 @@
     "priority": "medium",
     "status": "open",
     "openedDate": "2026-07-05",
-    "lastChecked": "2026-07-06",
+    "lastChecked": "2026-07-11",
     "sourceIds": [
       "source-youtube-people-still-live-here-playlist-2026-07-06",
       "source-youtube-kane-pixels-channel-2026-07-05",
+      "source-youtube-kane-pixels-channel-2026-07-11",
       "source-complex-kane-parsons-interview-2026-05-29"
     ],
-    "notes": "A direct Complex interview makes People Still Live Here the strongest non-Backrooms YouTube-side item to monitor, but no reliable current production-status statement or release window was located. Continue tracking official uploads, descriptions, and playlist changes rather than inferring status from playlist presence."
+    "notes": "A direct Complex interview makes People Still Live Here the strongest non-Backrooms YouTube-side item to monitor, but no reliable current production-status statement or release window was located. A July 11 official channel surface check did not expose a new canonical upload. Continue tracking official uploads, descriptions, and playlist changes rather than inferring status from playlist presence."
   },
   {
     "id": "queue-everything-must-go-discord-context",

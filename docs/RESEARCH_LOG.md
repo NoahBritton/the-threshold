@@ -1,5 +1,18 @@
 # Research Log
 
+## 2026-07-11 - Edition 003 digital-date consolidation audit
+
+This pass checked whether the July 13/July 14 home-release discrepancy had resolved enough to justify a third dispatch.
+
+Key decisions:
+
+- Edition 003 was opened in **review** status rather than published because the digital release is still pre-release.
+- July 10 home-entertainment reporting consistently points to July 14 as the viewer-facing digital rent-or-buy date.
+- Prime Video continues to list July 13, 2026 at 9:00 PM PDT, which explains the apparent one-day mismatch for U.S. time zones.
+- A24's film page still exposes pre-order links, but the reviewed A24 page did not itself expose a July 14 date or Everything Must Go inclusion.
+- The Everything Must Go bonus-footage question remains open; no reviewed storefront identifies the theatrical post-credit footage in the home-release package.
+- A fresh official Kane Pixels YouTube channel surface check did not expose a new canonical People Still Live Here or Backrooms-series upload.
+
 ## 2026-07-09 - Edition 002 publication check
 
 The final pre-publication storefront check found a material overnight change: A24's official Backrooms page now linked to pre-order storefronts, and Prime Video listed a July 13, 2026 9:00 PM PDT release time.

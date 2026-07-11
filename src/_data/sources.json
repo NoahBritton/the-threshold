@@ -32,6 +32,22 @@
     "verified": true
   },
   {
+    "id": "source-the-numbers-backrooms-2026-07-11",
+    "title": "Backrooms (2026) - Box Office and Financial Information",
+    "publisher": "The Numbers",
+    "creator": null,
+    "publishedDate": null,
+    "accessedDate": "2026-07-11",
+    "url": "https://www.the-numbers.com/movie/Backrooms-%282026%29",
+    "archiveUrl": null,
+    "sourceType": "box-office-data",
+    "sourceTier": "authoritative-secondary",
+    "format": "database",
+    "availability": "public",
+    "notes": "Dynamic title page. On July 11, 2026 it listed $193.2 million domestic, $173.7 million international, and $366.9 million worldwide, plus a $10 million production budget and a July 10 daily domestic gross at rank 10. Totals should be rechecked before reuse.",
+    "verified": true
+  },
+  {
     "id": "source-variety-backrooms-300m-2026-06-21",
     "title": "Toy Story 5 box-office weekend report",
     "publisher": "Variety",
@@ -429,6 +445,22 @@
     "format": "article",
     "availability": "public",
     "notes": "Reports the digital release as confirmed for July 14, 2026 and says buyers/renters will use online retailers including Fandango, Amazon, and Apple. Notes that bonus-feature details remained limited at publication time.",
+    "verified": true
+  },
+  {
+    "id": "source-cinemablend-scp-backrooms-context-2026-07-07",
+    "title": "After Backrooms' Success, Internet Horror-Verse The SCP Foundation Is Getting Its First Movie",
+    "publisher": "CinemaBlend",
+    "creator": "Nick Venable",
+    "publishedDate": "2026-07-07",
+    "accessedDate": "2026-07-11",
+    "url": "https://www.cinemablend.com/movies/after-backrooms-success-internet-horror-verse-the-scp-foundation-getting-vhs-movie",
+    "archiveUrl": null,
+    "sourceType": "industry-context",
+    "sourceTier": "secondary",
+    "format": "article",
+    "availability": "public",
+    "notes": "Frames Backrooms and Obsession as examples of internet-originated horror success while reporting an SCP Foundation feature-length adaptation through the V/H/S franchise. Useful as market-context evidence, not as a Kane Parsons project update.",
     "verified": true
   },
   {

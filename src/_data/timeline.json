@@ -143,6 +143,41 @@
     "notes": "The event records date consolidation before actual release. Actual availability and version scope should be rechecked on July 14."
   },
   {
+    "id": "event-2026-07-11-backrooms-market-context",
+    "eventDate": "2026-07-11",
+    "datePrecision": "day",
+    "publishedDate": null,
+    "title": "Backrooms remains a market reference point during home-release run-up",
+    "summary": "The Numbers listed Backrooms at about $366.9 million worldwide on July 11, while CinemaBlend used Backrooms and Obsession as recent internet-originated horror success points in coverage of an SCP Foundation feature adaptation.",
+    "topics": [
+      "backrooms",
+      "box-office",
+      "internet-horror",
+      "industry"
+    ],
+    "people": [
+      "kane-parsons"
+    ],
+    "organizations": [
+      "a24",
+      "spooky-pictures",
+      "image-nation-studios"
+    ],
+    "sourceIds": [
+      "source-the-numbers-backrooms-2026-07-11",
+      "source-cinemablend-scp-backrooms-context-2026-07-07"
+    ],
+    "status": "reported",
+    "confidence": "medium",
+    "primarySourceAvailable": false,
+    "interpretation": "This is industry context, not a project announcement involving Parsons. It is useful because it shows Backrooms continuing to function as a market reference point while the home-release date is being clarified.",
+    "editionRefs": [
+      "003"
+    ],
+    "lastReviewed": "2026-07-11",
+    "notes": "Do not imply that the SCP/V/H/S project is caused by Backrooms or connected to Parsons without stronger reporting."
+  },
+  {
     "id": "event-2026-07-03-everything-must-go-release",
     "eventDate": "2026-07-03",
     "datePrecision": "day",

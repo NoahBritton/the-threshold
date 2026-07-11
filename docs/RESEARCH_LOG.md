@@ -10,6 +10,7 @@ Key decisions:
 - July 10 home-entertainment reporting consistently points to July 14 as the viewer-facing digital rent-or-buy date.
 - Prime Video continues to list July 13, 2026 at 9:00 PM PDT, which explains the apparent one-day mismatch for U.S. time zones.
 - A24's film page still exposes pre-order links, but the reviewed A24 page did not itself expose a July 14 date or Everything Must Go inclusion.
+- The edition was expanded with market context: The Numbers showed Backrooms around $366.9 million worldwide on July 11, and CinemaBlend used Backrooms as an internet-horror success reference point while covering an SCP Foundation adaptation.
 - The Everything Must Go bonus-footage question remains open; no reviewed storefront identifies the theatrical post-credit footage in the home-release package.
 - A fresh official Kane Pixels YouTube channel surface check did not expose a new canonical People Still Live Here or Backrooms-series upload.
 

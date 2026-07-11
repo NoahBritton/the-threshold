@@ -6,7 +6,7 @@
 
 - Drafted Edition 003, focused on the July 14 Backrooms digital-date consolidation and Prime Video's July 13 Pacific-time timestamp.
 - Added July 10 home-entertainment reporting, July 11 A24/Prime storefront checks, and a fresh official Kane Pixels YouTube channel check to the source ledger.
-- Added a timeline event for the July 14 digital date consolidation while keeping the Everything Must Go home-video scope unresolved.
+- Added timeline events for the July 14 digital-date consolidation and Backrooms' current market-context signal while keeping the Everything Must Go home-video scope unresolved.
 
 ## 0.3.0 - 2026-07-09
 
